@@ -6,6 +6,23 @@
 - name: Computer Vision
   sub: CV
   color: "#a83232"
+
+- name: Computer Architecture
+  sub: CA
+  color: "#be0aff"
+
+- name: Circuit
+  sub: CR
+  color: "#147df5"
+
+- name: Automation
+  sub: AU
+  color: "#ffa500"
+
+- name: FPGA
+  sub: FPGA
+  color: "#0aefff"
+
 # - name: Computer Graphics
 #   sub: CG
 #   color: "#0aefff"
@@ -30,19 +47,3 @@
 # - name: Human-Computer Interaction
 #   sub: HCI
 #   color: "#a83232"
-
-- name: Computer Architecture
-  sub: CA
-  color: "#be0aff"
-
-- name: Circuit
-  sub: CR
-  color: "#147df5"
-
-- name: Automation
-  sub: AU
-  color: "#ffa500"
-
-- name: FPGA
-  sub: FPGA
-  color: "#0aefff"
