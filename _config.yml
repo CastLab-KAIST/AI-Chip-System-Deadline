@@ -2,12 +2,12 @@ title: Circuit, Architecture and System Conference Deadlines
 description: Countdowns to top Circuit/Architecture/AI conference deadlines
 author: Yi Chen
 
-domain: "aideadlin.es"
+domain: "cast-deadlines.github.io"
 baseurl: ""
 
-twitter_hashtag: machinelearning
-github_username: paperswithcode
-github_repo: ai-deadlines
+twitter_hashtag: cast-deadlines
+github_username: Chen1Yi1
+github_repo: cast-deadlines.github.io
 
 markdown: kramdown
 ga_id:
