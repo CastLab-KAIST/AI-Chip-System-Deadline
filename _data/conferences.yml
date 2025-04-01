@@ -1,9 +1,24 @@
+- id: fpt25
+  title: FPT
+  year: 2025
+  full_name: IEEE International Conference on Field-Programmable Technology
+  link: https://fpt2025.shanghaitech.edu.cn/
+  abstract_deadline: 2025-07-14 23:59:59
+  deadline: 2025-07-23 23:59:59
+  timezone: UTC+8
+  place: Shanghai, China
+  date: December 2-5, 2025
+  start: 2025-12-02
+  end: 2025-12-05
+  sub: FPGA
+
 - id: nips25
   title: NeurIPS
   year: 2025
+  full_name: Conference on Neural Information Processing Systems
   link: https://neurips.cc/Conferences/2025
-  deadline: 2025-05-15 23:59:59
   abstract_deadline: 2025-05-11 23:59:59
+  deadline: 2025-05-15 23:59:59
   timezone: Etc/GMT+12
   place: San Diego Convention Center, USA
   date: December 2-7, 2025
@@ -14,9 +29,10 @@
 - id: asplos26a
   title: ASPLOS
   year: 2026
+  full_name: Architectural Support for Programming Languages and Operating Systems
   link: https://www.asplos-conference.org/asplos2026/cfp/
-  deadline: 2025-03-12 23:59:59
   abstract_deadline: 2025-03-05 23:59:59
+  deadline: 2025-03-12 23:59:59
   timezone: Etc/GMT+5
   place: TBD
   date: TBD
@@ -27,9 +43,10 @@
 - id: asplos26b
   title: ASPLOS
   year: 2026
+  full_name: Architectural Support for Programming Languages and Operating Systems
   link: https://www.asplos-conference.org/asplos2026/cfp/
-  deadline: 2025-08-13 23:59:59
   abstract_deadline: 2025-08-13 23:59:59
+  deadline: 2025-08-13 23:59:59
   timezone: Etc/GMT+5
   place: TBD
   date: TBD
@@ -38,9 +55,11 @@
   sub: CA
 
 - id: asscc25
-  title: ASSCC
+  title: A-SSCC
   year: 2025
+  full_name: Asian Solid-State Circuits Conference
   link: https://a-sscc2025.org/
+  abstract_deadline:
   deadline: 2025-06-04 20:00:00
   timezone: Asia/Seoul
   place: Daejeon, Korea
@@ -52,7 +71,9 @@
 - id: esserc25
   title: ESSERC
   year: 2025
+  full_name: European Solid-State Circuits Conference
   link: https://www.esserc2025.org/
+  abstract_deadline:
   deadline: 2025-04-04 23:59:59
   timezone: Etc/GMT+5
   place: Munich, Germany
@@ -64,9 +85,10 @@
 - id: micro25
   title: MICRO
   year: 2025
+  full_name: International Symposium on Microarchitecture
   link: https://microarch.org/micro58/
-  deadline: 2025-04-11 23:59:59
   abstract_deadline: 2024-04-04 23:59:59
+  deadline: 2025-04-11 23:59:59
   timezone: America/New_York
   place: Seoul, Korea
   date: Oct 18-22, 2025
@@ -78,9 +100,10 @@
 - id: iccad25
   title: ICCAD
   year: 2025
+  full_name: International Conference on Computer-Aided Design
   link: https://2025.iccad.com/
-  deadline: 2025-04-21 23:59:59
   abstract_deadline: 2024-04-14 23:59:59
+  deadline: 2025-04-21 23:59:59
   timezone: Etc/GMT+12
   place: Munich, Germany
   date: Oct 26-30, 2025
@@ -92,11 +115,12 @@
 - id: dac25
   title: DAC
   year: 2025
+  full_name: Design Automation Conference
   link: https://www.dac.com/
-  deadline: 2024-11-20 17:00:00
   abstract_deadline: 2024-11-12 17:00:00
+  deadline: 2024-11-20 17:00:00
   timezone: PST
-  place:  San Francisco, California, USA
+  place: San Francisco, California, USA
   date: Jun 22-25, 2025
   start: 2025-06-22
   end: 2025-06-25
@@ -106,9 +130,10 @@
 - id: cvpr25
   title: CVPR
   year: 2025
+  full_name: Conference on Computer Vision and Pattern Recognition
   link: https://cvpr.thecvf.com/Conferences/2025
-  deadline: 2024-11-15 06:59:59
   abstract_deadline: 2024-11-08 06:59:59
+  deadline: 2024-11-15 06:59:59
   timezone: Etc/GMT
   place: Nashville, Tennessee, USA
   date: June 10-17, 2025
@@ -123,15 +148,15 @@
   year: 2025
   full_name: AAAI Conference on Artificial Intelligence
   link: https://aaai.org/conference/aaai/aaai-25/
-  deadline: 2024-08-15 23:59:59
   abstract_deadline: 2024-08-07 23:59:59
+  deadline: 2024-08-15 23:59:59
   timezone: Etc/GMT+12
   place: Philadelphia, USA
   date: February 25 - March 04, 2025
   start: 2025-02-25
   end: 2025-03-04
   hindex: 212
-  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'AI', 'CG', 'HCI', 'AP']
+  sub: AI
   note: Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline on Aug 19, 2024. More info <a href='https://aaai.org/conference/aaai/aaai-25/'>here</a>.
 
 - id: neurips24
@@ -141,14 +166,13 @@
   link: https://nips.cc/Conferences/2024
   paperslink: https://proceedings.neurips.cc/
   pwclink: https://paperswithcode.com/conference/neurips-2024-12
-  deadline: 2024-05-22 19:59:59
   abstract_deadline: 2024-05-15 19:59:59
+  deadline: 2024-05-22 19:59:59
   timezone: Etc/UTC
   place: Vancouver, Canada
   date: December 9 - December 15, 2024
   start: 2024-12-09
   end: 2024-12-15
-  sub: ML
+  sub: AI
   hindex: 309
   note: Mandatory abstract deadline on May 15, 2024
-

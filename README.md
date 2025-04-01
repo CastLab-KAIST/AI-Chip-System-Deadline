@@ -17,16 +17,16 @@ To add or update a deadline:
 - Optionally add `hindex` (refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
 - Example:
     ```yaml
-    - title: BestConf
-      year: 2022
-      id: bestconf22  # title as lower case + last two digits of year
+    - id: bestconf25  # title as lower case + last two digits of year
+      title: BestConf
+      year: 2025
       full_name: Best Conference for Anything  # full conference name
       link: link-to-website.com
-      deadline: YYYY-MM-DD HH:SS
       abstract_deadline: YYYY-MM-DD HH:SS
+      deadline: YYYY-MM-DD HH:SS
       timezone: Asia/Seoul
       place: Incheon, South Korea
-      date: September, 18-22, 2022
+      date: September, 18-22, 2025
       start: YYYY-MM-DD
       end: YYYY-MM-DD
       paperslink: link-to-full-paper-list.com

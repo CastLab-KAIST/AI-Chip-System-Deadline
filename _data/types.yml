@@ -1,7 +1,4 @@
 ---
-- name: Artificial Intelligence
-  sub: AI
-  color: "#ffd300"
 
 - name: Computer Architecture
   sub: CA
@@ -18,6 +15,10 @@
 - name: FPGA
   sub: FPGA
   color: "#0aefff"
+
+- name: Artificial Intelligence
+  sub: AI
+  color: "#ffc0cb"
 
 # - name: Computer Graphics
 #   sub: CG
