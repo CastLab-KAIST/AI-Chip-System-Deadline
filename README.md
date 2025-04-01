@@ -1,6 +1,6 @@
 ## Cast Deadlines
 
-Countdown timers to keep track of a bunch of Circuit/Architecture/FPGA/AI conference deadlines.
+Countdown timers to keep track of a bunch of Computer Architecture/Circuit/Automation/FPGA/AI conference deadlines.
 
 This is a fork of the [ai-deadlines](https://github.com/paperswithcode/ai-deadlines) website.
 
