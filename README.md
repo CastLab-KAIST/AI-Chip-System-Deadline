@@ -6,7 +6,7 @@ This is a fork of the [ai-deadlines](https://github.com/paperswithcode/ai-deadli
 
 ## Contributing
 
-Contributions are very welcome! We are only looking to list top-tier conferences in AI chips as per [conferenceranks.com][3] and our judgement calls. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
+Contributions are very welcome! We are only looking to list top-tier conferences in AI chip as per [conferenceranks.com][3] and our judgement calls. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
 
 To add or update a deadline:
 - Fork the repository
