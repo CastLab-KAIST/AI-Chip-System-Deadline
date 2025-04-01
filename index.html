@@ -205,11 +205,12 @@
             date: confDate.toDate(),
             duration: 60,
           })
+          const baseurl = '{{ site.baseurl }}';
           var calendarEl = document.querySelector('#{{conf.id}} .calendar');
           calendarEl.appendChild(myCalendar);
 
           setTimeout(function () {
-            $(calendarEl).find('img[src="calendar.png"]').attr('src', '{{ site.baseurl }}/static/img/calendar.png');
+            $(calendarEl).find('img[src="calendar.png"]').attr('src', baseurl + '/static/img/calendar.png');
           }, 50);
 
 
