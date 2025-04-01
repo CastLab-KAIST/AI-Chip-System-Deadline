@@ -1,75 +1,73 @@
-- title: NeurIPS
-  id: nips25
+- id: nips25
+  title: NeurIPS
   year: 2025
   link: https://neurips.cc/Conferences/2025
-  deadline: '2025-05-15 23:59:59'
-  abstract_deadline: '2025-05-11 23:59:59'
-  timezone: AoE
+  deadline: 2025-05-15 23:59:59
+  abstract_deadline: 2025-05-11 23:59:59
+  timezone: Etc/GMT+12
   place: San Diego Convention Center, USA
   date: December 2-7, 2025
   start: 2025-12-02
   end: 2025-12-07
   sub: AI
 
-- title: ASPLOS
-  id: asplos26a
+- id: asplos26a
+  title: ASPLOS
   year: 2026
   link: https://www.asplos-conference.org/asplos2026/cfp/
-  deadline: '2025-03-12 23:59:59'
-  abstract_deadline: '2025-03-05 23:59:59'
-  timezone: GMT-5
-  place: 
-  date:
-  start: 
-  end: 
+  deadline: 2025-03-12 23:59:59
+  abstract_deadline: 2025-03-05 23:59:59
+  timezone: Etc/GMT+5
+  place: TBD
+  date: TBD
+  start: TBD
+  end: TBD
   sub: CA
 
-- title: ASPLOS
+- id: asplos26b
+  title: ASPLOS
   year: 2026
-  id: asplos26b
   link: https://www.asplos-conference.org/asplos2026/cfp/
-  deadline: '2025-08-13 23:59:59'
-  abstract_deadline: '2025-08-13 23:59:59'
-  timezone: GMT-5
-  place: 
-  date:
-  start: 
-  end: 
+  deadline: 2025-08-13 23:59:59
+  abstract_deadline: 2025-08-13 23:59:59
+  timezone: Etc/GMT+5
+  place: TBD
+  date: TBD
+  start: TBD
+  end: TBD
   sub: CA
 
-- title: ASSCC
+- id: asscc25
+  title: ASSCC
   year: 2025
-  id: asscc25
   link: https://a-sscc2025.org/
-  deadline: '2025-06-04 20:00:00'
-  # abstract_deadline: '2024-04-04 23:59:59'
-  timezone: GMT+9
+  deadline: 2025-06-04 20:00:00
+  timezone: Asia/Seoul
   place: Daejeon, Korea
   date: Nov 02-05, 2025
   start: 2025-11-02
   end: 2025-11-05
   sub: CR
 
-- title: ESSERC
+- id: esserc25
+  title: ESSERC
   year: 2025
-  id: esserc25
   link: https://www.esserc2025.org/
-  deadline: '2025-04-04 23:59:59'
-  # abstract_deadline: '2024-04-04 23:59:59'
-  timezone: UTC-5
+  deadline: 2025-04-04 23:59:59
+  timezone: Etc/GMT+5
   place: Munich, Germany
   date: Sep 08-11, 2025
   start: 2025-09-08
   end: 2025-09-11
   sub: CR
 
-- title: MICRO
+- id: micro25
+  title: MICRO
   year: 2025
-  id: micro25
   link: https://microarch.org/micro58/
-  deadline: '2025-04-11 23:59:59'
-  abstract_deadline: '2024-04-04 23:59:59'
-  timezone: EDT
+  deadline: 2025-04-11 23:59:59
+  abstract_deadline: 2024-04-04 23:59:59
+  timezone: America/New_York
   place: Seoul, Korea
   date: Oct 18-22, 2025
   start: 2025-10-18
@@ -77,13 +75,13 @@
   sub: CA
   note: Mandatory paper registration deadline on April 4, 2025. More info <a href='https://microarch.org/micro58/'>here</a>.
 
-- title: ICCAD
+- id: iccad25
+  title: ICCAD
   year: 2025
-  id: iccad25
   link: https://2025.iccad.com/
-  deadline: '2025-04-21 23:59:59'
-  abstract_deadline: '2024-04-14 23:59:59'
-  timezone: AOE
+  deadline: 2025-04-21 23:59:59
+  abstract_deadline: 2024-04-14 23:59:59
+  timezone: Etc/GMT+12
   place: Munich, Germany
   date: Oct 26-30, 2025
   start: 2025-10-26
@@ -91,13 +89,27 @@
   sub: AU
   note: Mandatory paper registration deadline on April 14, 2025. More info <a href='https://2025.iccad.com/'>here</a>.
 
-- title: CVPR
+- id: dac25
+  title: DAC
   year: 2025
-  id: cvpr25
+  link: https://www.dac.com/
+  deadline: 2024-11-20 17:00:00
+  abstract_deadline: 2024-11-12 17:00:00
+  timezone: PST
+  place:  San Francisco, California, USA
+  date: Jun 22-25, 2025
+  start: 2025-06-22
+  end: 2025-06-25
+  sub: AU
+  note: Mandatory paper registration deadline on November 12, 2024. More info <a href='https://www.dac.com/Conference/2025-Call-for-Contributions'>here</a>.
+
+- id: cvpr25
+  title: CVPR
+  year: 2025
   link: https://cvpr.thecvf.com/Conferences/2025
-  deadline: '2024-11-15 06:59:59'
-  abstract_deadline: '2024-11-08 06:59:59'
-  timezone: GMT
+  deadline: 2024-11-15 06:59:59
+  abstract_deadline: 2024-11-08 06:59:59
+  timezone: Etc/GMT
   place: Nashville, Tennessee, USA
   date: June 10-17, 2025
   start: 2025-06-10
@@ -106,29 +118,14 @@
   sub: AI
   note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
 
-- title: ICLR
+- id: aaai25
+  title: AAAI
   year: 2025
-  id: iclr25
-  link: https://iclr.cc/Conferences/2025/CallForPapers
-  deadline: '2024-10-01 23:59:59'
-  abstract_deadline: '2024-09-27 23:59:59'
-  timezone: UTC-12
-  place: Singapore
-  date: Apr 24-28, 2025
-  start: 2025-04-24
-  end: 2025-04-28
-  hindex: 304
-  sub: ['ML', 'AP', 'RO', 'AI', 'NLP', 'SP']
-  note: Mandatory abstract deadline on September 27, 2024. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.
-  
-- title: AAAI
-  year: 2025
-  id: aaai25
   full_name: AAAI Conference on Artificial Intelligence
   link: https://aaai.org/conference/aaai/aaai-25/
-  deadline: '2024-08-15 23:59:59'
-  abstract_deadline: '2024-08-07 23:59:59'
-  timezone: UTC-12
+  deadline: 2024-08-15 23:59:59
+  abstract_deadline: 2024-08-07 23:59:59
+  timezone: Etc/GMT+12
   place: Philadelphia, USA
   date: February 25 - March 04, 2025
   start: 2025-02-25
@@ -137,118 +134,21 @@
   sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'AI', 'CG', 'HCI', 'AP']
   note: Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline on Aug 19, 2024. More info <a href='https://aaai.org/conference/aaai/aaai-25/'>here</a>.
 
-- title: NeurIPS
+- id: neurips24
+  title: NeurIPS
   year: 2024
-  id: neurips24
   full_name: Conference on Neural Information Processing Systems
-  hindex: 309
   link: https://nips.cc/Conferences/2024
   paperslink: https://proceedings.neurips.cc/
   pwclink: https://paperswithcode.com/conference/neurips-2024-12
-  deadline: '2024-05-22 19:59:59'
-  abstract_deadline: '2024-05-15 19:59:59'
-  timezone: UTC
+  deadline: 2024-05-22 19:59:59
+  abstract_deadline: 2024-05-15 19:59:59
+  timezone: Etc/UTC
   place: Vancouver, Canada
   date: December 9 - December 15, 2024
   start: 2024-12-09
   end: 2024-12-15
   sub: ML
+  hindex: 309
   note: Mandatory abstract deadline on May 15, 2024
 
-- id: asplos25a
-  year: 2025
-  title: ACM ASPLOS
-  full_title: ACM ASPLOS
-  link: https://www.asplos-conference.org/asplos2025/cfp/
-  deadline: '2024-02-23 23:59:59'
-  timezone: Etc/GMT+12
-  note: Spring cycle. Abstract registration deadline. Full paper submission deadline
-    2024-03-01 23:59:59 AoE.
-  place: Rotterdam
-  date: Mar - Apr, 2025
-  start: '2025-03-30'
-  end: '2025-04-03'
-  sub:
-  - CA
-  inactive: false
-
-- id: asplos25b
-  year: 2025
-  title: ACM ASPLOS
-  full_title: ACM ASPLOS
-  link: https://www.asplos-conference.org/asplos2025/cfp/
-  deadline: '2024-06-17 23:59:59'
-  timezone: Etc/GMT+12
-  note: Summer cycle. Abstract registration deadline. Full paper submission deadline
-    2024-06-24 23:59:59 AoE.
-  place: Rotterdam
-  date: Mar - Apr, 2025
-  start: '2025-03-30'
-  end: '2025-04-03'
-  sub:
-  - CA
-  inactive: false
-
-- id: asplos25c
-  year: 2025
-  title: ACM ASPLOS
-  full_title: ACM ASPLOS
-  link: https://www.asplos-conference.org/asplos2025/cfp/
-  deadline: '2024-10-18 23:59:59'
-  timezone: Etc/GMT+12
-  note: Fall cycle. Paper submission deadline.
-  place: Rotterdam
-  date: Mar - Apr, 2025
-  start: '2025-03-30'
-  end: '2025-04-03'
-  sub:
-  - CA
-  inactive: false
-
-- id: hpca25
-  year: 2025
-  title: HPCA
-  full_title: IEEE International Symposium on High-Performance Computer Architecture
-  link: https://hpca-conf.org/2025/
-  deadline: '2024-08-02 23:59:00'
-  timezone: Etc/GMT-7
-  note: Submission deadline.
-  place: Las Vegas, NV, USA
-  date: March 1-5, 2025
-  start: '2024-03-01'
-  end: '2024-03-05'
-  sub:
-  - CA
-  inactive: false
-
-- id: isca25
-  year: 2025
-  title: ISCA
-  full_title: International Symposium on Computer Architecture
-  link: https://www.iscaconf.org/isca2025/submit/papers.php
-  deadline: '2024-11-15 23:59:00'
-  timezone: Etc/GMT+12
-  note: Abstracts deadline. Full paper deadline November 22, 2024, 23:59 AoE.
-  place: Tokyo, Japan
-  date: June 21-25, 2025
-  start: '2025-06-21'
-  end: '2025-06-25'
-  sub:
-  - CA
-  inactive: false
-
-- id: micro24
-  year: 2024
-  title: MICRO
-  full_title: Micro Conference
-  link: https://microarch.org/micro57/
-  deadline: '2024-04-18 23:59:00'
-  timezone: Etc/GMT-7
-  note: Submission deadline.
-  place: Austin, Texas
-  date: November 2-6, 2024
-  start: '2024-11-2'
-  end: '2024-11-6'
-  sub:
-  - CA
-  inactive: false
