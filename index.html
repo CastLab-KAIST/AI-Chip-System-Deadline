@@ -206,6 +206,8 @@
             duration: 60,
           })
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
+          $('img[src="calendar.png"]').attr('src', '{{ site.baseurl }}/static/img/calendar.png');
+
 
           // check if date has passed, add 'past' class to it
           var today = moment();

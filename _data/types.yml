@@ -1,11 +1,7 @@
 ---
-- name: Machine Learning
-  sub: ML
+- name: Artificial Intelligence
+  sub: AI
   color: "#ffd300"
-
-- name: Computer Vision
-  sub: CV
-  color: "#a83232"
 
 - name: Computer Architecture
   sub: CA

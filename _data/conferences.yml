@@ -1,3 +1,82 @@
+- title: NeurIPS
+  id: nips25
+  year: 2025
+  link: https://neurips.cc/Conferences/2025
+  deadline: '2025-05-15 23:59:59'
+  abstract_deadline: '2025-05-11 23:59:59'
+  timezone: AoE
+  place: San Diego Convention Center, USA
+  date: December 2-7, 2025
+  start: 2025-12-02
+  end: 2025-12-07
+  sub: AI
+
+- title: ASPLOS
+  id: asplos26a
+  year: 2026
+  link: https://www.asplos-conference.org/asplos2026/cfp/
+  deadline: '2025-03-12 23:59:59'
+  abstract_deadline: '2025-03-05 23:59:59'
+  timezone: GMT-5
+  place: 
+  date:
+  start: 
+  end: 
+  sub: CA
+
+- title: ASPLOS
+  year: 2026
+  id: asplos26b
+  link: https://www.asplos-conference.org/asplos2026/cfp/
+  deadline: '2025-08-13 23:59:59'
+  abstract_deadline: '2025-08-13 23:59:59'
+  timezone: GMT-5
+  place: 
+  date:
+  start: 
+  end: 
+  sub: CA
+
+- title: ASSCC
+  year: 2025
+  id: asscc25
+  link: https://a-sscc2025.org/
+  deadline: '2025-06-04 20:00:00'
+  # abstract_deadline: '2024-04-04 23:59:59'
+  timezone: GMT+9
+  place: Daejeon, Korea
+  date: Nov 02-05, 2025
+  start: 2025-11-02
+  end: 2025-11-05
+  sub: CR
+
+- title: ESSERC
+  year: 2025
+  id: esserc25
+  link: https://www.esserc2025.org/
+  deadline: '2025-04-04 23:59:59'
+  # abstract_deadline: '2024-04-04 23:59:59'
+  timezone: UTC-5
+  place: Munich, Germany
+  date: Sep 08-11, 2025
+  start: 2025-09-08
+  end: 2025-09-11
+  sub: CR
+
+- title: MICRO
+  year: 2025
+  id: micro25
+  link: https://microarch.org/micro58/
+  deadline: '2025-04-11 23:59:59'
+  abstract_deadline: '2024-04-04 23:59:59'
+  timezone: EDT
+  place: Seoul, Korea
+  date: Oct 18-22, 2025
+  start: 2025-10-18
+  end: 2025-10-22
+  sub: CA
+  note: Mandatory paper registration deadline on April 4, 2025. More info <a href='https://microarch.org/micro58/'>here</a>.
+
 - title: ICCAD
   year: 2025
   id: iccad25
@@ -24,7 +103,7 @@
   start: 2025-06-10
   end: 2025-06-17
   hindex: 389
-  sub: CV
+  sub: AI
   note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
 
 - title: ICLR
@@ -39,7 +118,7 @@
   start: 2025-04-24
   end: 2025-04-28
   hindex: 304
-  sub: ['ML', 'AP', 'RO', 'CV', 'NLP', 'SP']
+  sub: ['ML', 'AP', 'RO', 'AI', 'NLP', 'SP']
   note: Mandatory abstract deadline on September 27, 2024. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.
   
 - title: AAAI
@@ -55,7 +134,7 @@
   start: 2025-02-25
   end: 2025-03-04
   hindex: 212
-  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']
+  sub: ['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'AI', 'CG', 'HCI', 'AP']
   note: Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline on Aug 19, 2024. More info <a href='https://aaai.org/conference/aaai/aaai-25/'>here</a>.
 
 - title: NeurIPS
@@ -124,56 +203,6 @@
   end: '2025-04-03'
   sub:
   - CA
-  inactive: false
-
-- id: eurosp25
-  year: 2025
-  title: IEEE EuroS&P
-  full_title: IEEE European Symposium on Security and Privacy
-  link: https://www.eurosp2025.ieee-security.org/
-  deadline: '2024-10-21 23:59:59'
-  timezone: Etc/GMT+12
-  note: Abstract registration deadline. Full paper submission deadline 2024-10-24
-    23:59:59 AoE.
-  place: Venice, Italy
-  date: June 30 - July 4, 2025
-  start: '2025-06-30'
-  end: '2025-07-04'
-  sub:
-  - DS
-  - SEC
-  inactive: false
-
-- id: eurosys26spring
-  year: 2026
-  title: EuroSys
-  full_title: European Conference on Computer Systems
-  link: https://www.eurosys.org/
-  deadline: '2025-03-14 23:59:59'
-  timezone: Etc/GMT+12
-  note: Spring cycle. Paper submission deadline.
-  place: Rotterdam
-  date: March 30 - April 3, 2026
-  start: '2026-03-30'
-  end: '2026-04-03'
-  sub:
-  - DS
-  inactive: false
-
-- id: eurosys26fall
-  year: 2026
-  title: EuroSys
-  full_title: European Conference on Computer Systems
-  link: https://www.eurosys.org/
-  deadline: '2025-10-15 23:59:59'
-  timezone: Etc/GMT+12
-  note: Fall cycle. Abstract deadline. Paper deadline 2025-10-22 23:59:59 AoE.
-  place: Rotterdam
-  date: March 30 - April 3, 2026
-  start: '2026-03-30'
-  end: '2026-04-03'
-  sub:
-  - DS
   inactive: false
 
 - id: hpca25
