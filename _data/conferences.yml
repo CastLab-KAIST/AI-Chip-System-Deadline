@@ -1,3 +1,17 @@
+- title: ICCAD
+  year: 2025
+  id: iccad25
+  link: https://2025.iccad.com/
+  deadline: '2025-04-21 23:59:59'
+  abstract_deadline: '2024-04-14 23:59:59'
+  timezone: AOE
+  place: Munich, Germany
+  date: Oct 26-30, 2025
+  start: 2025-10-26
+  end: 2025-10-30
+  sub: AU
+  note: Mandatory paper registration deadline on April 14, 2025. More info <a href='https://2025.iccad.com/'>here</a>.
+
 - title: CVPR
   year: 2025
   id: cvpr25
