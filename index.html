@@ -146,7 +146,6 @@
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
-      const baseurl_tmp = '/cast-deadlines'; // This is the baseurl, hardcoded for now
         // Make sure this is >= no. of subs
         // Currently not used
         var colors = ['#341f97', '#ee5253', '#2e86de',
@@ -206,13 +205,9 @@
             date: confDate.toDate(),
             duration: 60,
           })
+          $(myCalendar).find('img[src="calendar.png"]').attr('src', '{{ site.baseurl }}/static/img/calendar.png');
           var calendarEl = document.querySelector('#{{conf.id}} .calendar');
           calendarEl.appendChild(myCalendar);
-
-          setTimeout(function () {
-            $(calendarEl).find('img[src="calendar.png"]').attr('src', baseurl_tmp + '/static/img/calendar.png');
-          }, 50);
-
 
           // check if date has passed, add 'past' class to it
           var today = moment();
