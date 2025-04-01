@@ -1,7 +1,3 @@
----
----
-
-
 <html>
   <head>
     {% include head.html %}
@@ -18,7 +14,7 @@
                 </div>
                 <div class="meta col-12">
                   {{ site.description }}.
-                  To add/edit a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
+                  To add/edit a conference, <a target="_blank" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
                 </div>
             </div>
             <br>
@@ -58,18 +54,15 @@
               </div>
               <div class="meta col-12">
                 You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/cast-deadlines.ics">Google Calendar</a> or
-                <a href="/cast-deadlines.ics">.ics</a>.
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}{{ site.baseurl }}/cast-deadlines.ics">Google Calendar</a> or
+                <a href="{{ site.baseurl }}/cast-deadlines.ics">.ics</a>.
               </div>
             </div>
         </div>
         <div id="confs">
-<!-- Show only the conferences in the current year -->
-      <!-- Current year is a number (hence plus 0 for convertion)-->
       {% assign year= "now" | date: "%Y" | plus: 0 %}
         <div id="coming_confs">
           {% for conf in site.data.conferences %}
-<!-- Show this year or future events (year is computed above) -->
         {% if conf.year >= year %}
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
@@ -166,12 +159,9 @@
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
-        // Make sure this is >= no. of subs
-        // Currently not used
         var colors = ['#341f97', '#ee5253', '#2e86de',
                       '#ff9f43', '#10ac84', '#222f3e']
 
-        
         {% include load_data.js %}
         {% include utils.js %}
         {% include multiselect_handler.js %}
@@ -194,21 +184,17 @@
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
         {% else %}
-          // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var confDate = moment.tz("{{conf.deadline}}", timezone);
 
-          // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function (event) {
               $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
 
-          // render countdown timer small
           $('#{{conf.id}} .timer-small').countdown(confDate.toDate(), function (event) {
               $(this).html(event.strftime('%Dd %H:%M:%S'));
           });
 
-          // convert deadline to local timezone
           try {
             var localConfDate = moment.tz(confDate, local_timezone);
             $('#{{conf.id}} .deadline-time').html(localConfDate.toString());
@@ -217,7 +203,6 @@
             console.log("Error converting to local timezone.");
           }
 
-          // add calendar button
           var myCalendar = createCalendarFromObject({
             id:  '{{conf.id}}',
             title: '{{conf.title}} {{conf.year}} deadline',
@@ -226,7 +211,6 @@
           })
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
-          // check if date has passed, add 'past' class to it
           var today = moment();
           diff = today.diff(confDate);
 
@@ -241,7 +225,6 @@
         {% endif %}
         {% endfor %}
 
-        // Sort coming_confs and past_confs
         $("#coming_confs .ConfItem").sort(function (a, b) {
           return $(b).attr('diff') - $(a).attr('diff');
         }).appendTo($("#coming_confs"));
@@ -260,7 +243,6 @@
 
         {% include handle_url_retrieval.js %}
 
-        // Event handler on sub badge click
         $('.conf-sub').click(function (e) {
             var csub = $(this).data('sub');
             subs = [csub];

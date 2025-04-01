@@ -3,7 +3,7 @@ description: Countdowns to top Circuit/Architecture/AI conference deadlines
 author: Yi Chen
 
 domain: "cast-deadlines.github.io"
-baseurl: ""
+baseurl: "/cast-deadlines.github.io"
 
 twitter_hashtag: cast-deadlines
 github_username: Chen1Yi1
