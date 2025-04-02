@@ -205,9 +205,12 @@
             date: confDate.toDate(),
             duration: 60,
           })
-          $(myCalendar).find('img[src="calendar.png"]').attr('src', '{{ site.baseurl }}/static/img/calendar.png'); // replace calendar icon
-          var calendarEl = document.querySelector('#{{conf.id}} .calendar');
-          calendarEl.appendChild(myCalendar);
+          let $img = $(myCalendar).find('img[src="calendar.png"]');
+          if ($img.length > 0) {
+            $img[0].src = '{{ site.baseurl }}/static/img/calendar.png';
+          }
+
+          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
           var today = moment();
