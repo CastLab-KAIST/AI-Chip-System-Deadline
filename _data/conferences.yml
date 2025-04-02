@@ -97,14 +97,27 @@
   full_name: Architectural Support for Programming Languages and Operating Systems
   link: https://www.asplos-conference.org/asplos2026/cfp/
   abstract_deadline: '2025-08-13 23:59:59'
-  deadline: '2025-08-13 23:59:59'
-  timezone: Etc/GMT+5
+  deadline: '2025-08-20 23:59:59'
+  timezone: America/New_York
   place: TBD
   date: TBD
   start: TBD
   end: TBD
   sub: CA
 
+- id: asplos26a
+  title: ASPLOS Spring
+  year: 2026
+  full_name: Architectural Support for Programming Languages and Operating Systems
+  link: https://www.asplos-conference.org/asplos2026/cfp/
+  abstract_deadline: '2025-03-05 23:59:59'
+  deadline: '2025-03-12 23:59:59'
+  timezone: America/New_York
+  place: TBD
+  date: TBD
+  start: TBD
+  end: TBD
+  sub: CA
 
 - id: neurips24
   title: NeurIPS
@@ -167,7 +180,7 @@
   link: https://www.dac.com/
   abstract_deadline: '2024-11-12 17:00:00'
   deadline: '2024-11-20 17:00:00'
-  timezone: PST
+  timezone: America/Los_Angeles
   place: San Francisco, California, USA
   date: Jun 22-25, 2025
   start: 2025-06-22
@@ -176,17 +189,5 @@
   note: Mandatory paper registration deadline on November 12, 2024. More info <a href='https://www.dac.com/Conference/2025-Call-for-Contributions'>here</a>.
 
 
-- id: asplos26a
-  title: ASPLOS Spring
-  year: 2026
-  full_name: Architectural Support for Programming Languages and Operating Systems
-  link: https://www.asplos-conference.org/asplos2026/cfp/
-  abstract_deadline: '2025-03-05 23:59:59'
-  deadline: '2025-03-12 23:59:59'
-  timezone: Etc/GMT+5
-  place: TBD
-  date: TBD
-  start: TBD
-  end: TBD
-  sub: CA
+
 
