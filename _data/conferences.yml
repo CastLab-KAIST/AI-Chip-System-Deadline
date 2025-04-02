@@ -1,16 +1,16 @@
-- id: fpt25
-  title: FPT
-  year: 2025
-  full_name: IEEE International Conference on Field-Programmable Technology
-  link: https://fpt2025.shanghaitech.edu.cn/
-  abstract_deadline: 2025-07-14T23:59:59+08:00
-  deadline: 2025-07-23T23:59:59+08:00
-  timezone: Asia/Shanghai
-  place: Shanghai, China
-  date: December 2-5, 2025
-  start: 2025-12-02
-  end: 2025-12-05
-  sub: FPGA
+# - id: fpt25
+#   title: FPT
+#   year: 2025
+#   full_name: IEEE International Conference on Field-Programmable Technology
+#   link: https://fpt2025.shanghaitech.edu.cn/
+#   abstract_deadline: 2025-07-14 23:59:59
+#   deadline: 2025-07-23 23:59:59
+#   timezone: Asia/Shanghai
+#   place: Shanghai, China
+#   date: December 2-5, 2025
+#   start: 2025-12-02
+#   end: 2025-12-05
+#   sub: FPGA
 
 # - id: nips25
 #   title: NeurIPS
@@ -54,19 +54,19 @@
 #   end: TBD
 #   sub: CA
 
-- id: asscc25
-  title: A-SSCC
-  year: 2025
-  full_name: Asian Solid-State Circuits Conference
-  link: https://a-sscc2025.org/
-  abstract_deadline:
-  deadline: 2025-06-04 20:00:00
-  timezone: Etc/GMT+9
-  place: Daejeon, Korea
-  date: Nov 02-05, 2025
-  start: 2025-11-02
-  end: 2025-11-05
-  sub: CR
+# - id: asscc25
+#   title: A-SSCC
+#   year: 2025
+#   full_name: Asian Solid-State Circuits Conference
+#   link: https://a-sscc2025.org/
+#   abstract_deadline:
+#   deadline: 2025-06-04 20:00:00
+#   timezone: Etc/GMT+9
+#   place: Daejeon, Korea
+#   date: Nov 02-05, 2025
+#   start: 2025-11-02
+#   end: 2025-11-05
+#   sub: CR
 
 - id: esserc25
   title: ESSERC
@@ -74,8 +74,8 @@
   full_name: European Solid-State Circuits Conference
   link: https://www.esserc2025.org/
   abstract_deadline:
-  deadline: 2025-04-04T23:59:59-05:00
-  timezone: America/New_York
+  deadline: 2025-04-04 11:59:59
+  timezone: UTC-5
   place: Munich, Germany
   date: Sep 08-11, 2025
   start: 2025-09-08
@@ -88,8 +88,8 @@
   full_name: International Symposium on Microarchitecture
   link: https://microarch.org/micro58/
   abstract_deadline: 2024-04-04 23:59:59
-  deadline: 2025-04-11 23:59:59
-  timezone: America/New_York
+  deadline: 2025-04-11 11:59:59
+  timezone: UTC-4
   place: Seoul, Korea
   date: Oct 18-22, 2025
   start: 2025-10-18
