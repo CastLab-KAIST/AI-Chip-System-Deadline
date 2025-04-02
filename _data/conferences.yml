@@ -3,8 +3,8 @@
   year: 2025
   full_name: IEEE International Conference on Field-Programmable Technology
   link: https://fpt2025.shanghaitech.edu.cn/
-  abstract_deadline: 2025-07-14 23:59:59
-  deadline: 2025-07-23 23:59:59
+  abstract_deadline: 2025-07-14T23:59:59+08:00
+  deadline: 2025-07-23T23:59:59+08:00
   timezone: Asia/Shanghai
   place: Shanghai, China
   date: December 2-5, 2025
@@ -74,7 +74,7 @@
   full_name: European Solid-State Circuits Conference
   link: https://www.esserc2025.org/
   abstract_deadline:
-  deadline: 2025-04-04 23:59:59
+  deadline: 2025-04-04T23:59:59-05:00
   timezone: America/New_York
   place: Munich, Germany
   date: Sep 08-11, 2025
