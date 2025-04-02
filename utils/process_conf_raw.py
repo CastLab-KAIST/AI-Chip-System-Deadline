@@ -15,13 +15,20 @@ _mapping_tag = BaseResolver.DEFAULT_MAPPING_TAG
 
 # Timezone alias mapping
 timezone_alias_map = {
+    # UTC offsets (reversed sign for IANA)
     "UTC-12": "Etc/GMT+12", "UTC-11": "Etc/GMT+11", "UTC-10": "Etc/GMT+10", "UTC-9": "Etc/GMT+9",
     "UTC-8": "Etc/GMT+8", "UTC-7": "Etc/GMT+7", "UTC-6": "Etc/GMT+6", "UTC-5": "Etc/GMT+5",
     "UTC-4": "Etc/GMT+4", "UTC-3": "Etc/GMT+3", "UTC-2": "Etc/GMT+2", "UTC-1": "Etc/GMT+1",
     "UTC+0": "Etc/GMT", "UTC+1": "Etc/GMT-1", "UTC+2": "Etc/GMT-2", "UTC+3": "Etc/GMT-3",
     "UTC+4": "Etc/GMT-4", "UTC+5": "Etc/GMT-5", "UTC+6": "Etc/GMT-6", "UTC+7": "Etc/GMT-7",
-    "UTC+8": "Etc/GMT-8", "UTC+9": "Etc/GMT-9", "UTC+10": "Etc/GMT-10", "UTC+11": "Etc/GMT-11",
-    "UTC+12": "Etc/GMT-12",
+    
+    # Correct mappings for Asia timezones
+    "UTC+8": "Asia/Shanghai",  # Correct IANA name for UTC+8
+    "UTC+9": "Asia/Seoul",     # Correct IANA name for UTC+9
+    
+    "UTC+10": "Etc/GMT-10", "UTC+11": "Etc/GMT-11", "UTC+12": "Etc/GMT-12",
+
+    # Time zone abbreviations (using IANA names for daylight saving)
     "EST": "America/New_York", "EDT": "America/New_York", "CST": "America/Chicago",
     "CDT": "America/Chicago", "MST": "America/Denver", "MDT": "America/Denver",
     "PST": "America/Los_Angeles", "PDT": "America/Los_Angeles",
@@ -30,12 +37,17 @@ timezone_alias_map = {
     "JST": "Asia/Tokyo", "IST": "Asia/Kolkata", "CET": "Europe/Paris", "CEST": "Europe/Paris",
     "BST": "Europe/London", "MSK": "Europe/Moscow", "AEST": "Australia/Sydney",
     "AEDT": "Australia/Sydney", "NZST": "Pacific/Auckland", "NZDT": "Pacific/Auckland",
-    "AoE": "Etc/GMT+12", "GMT": "Etc/GMT", "GMT+0": "Etc/GMT", "GMT+1": "Etc/GMT-1",
-    "GMT+2": "Etc/GMT-2", "GMT+3": "Etc/GMT-3", "GMT+4": "Etc/GMT-4", "GMT+5": "Etc/GMT-5",
-    "GMT+6": "Etc/GMT-6", "GMT+7": "Etc/GMT-7", "GMT+8": "Etc/GMT-8", "GMT+9": "Asia/Seoul",
-    "GMT+10": "Etc/GMT-10", "GMT-1": "Etc/GMT+1", "GMT-2": "Etc/GMT+2", "GMT-3": "Etc/GMT+3",
-    "GMT-4": "Etc/GMT+4", "GMT-5": "Etc/GMT+5", "GMT-6": "Etc/GMT+6", "GMT-7": "Etc/GMT+7",
-    "GMT-8": "Etc/GMT+8", "GMT-9": "Etc/GMT+9", "GMT-10": "Etc/GMT+10",
+
+    # AoE (Anywhere on Earth), uses the latest time zone possible (UTC-12)
+    "AoE": "Etc/GMT+12",
+
+    # GMT shorthand (reversed sign for IANA)
+    "GMT": "Etc/GMT", "GMT+0": "Etc/GMT", "GMT+1": "Etc/GMT-1", "GMT+2": "Etc/GMT-2", "GMT+3": "Etc/GMT-3",
+    "GMT+4": "Etc/GMT-4", "GMT+5": "Etc/GMT-5", "GMT+6": "Etc/GMT-6", "GMT+7": "Etc/GMT-7",
+    "GMT+8": "Etc/GMT-8", "GMT+9": "Etc/GMT-9", "GMT+10": "Etc/GMT-10", "GMT-1": "Etc/GMT+1",
+    "GMT-2": "Etc/GMT+2", "GMT-3": "Etc/GMT+3", "GMT-4": "Etc/GMT+4", "GMT-5": "Etc/GMT+5",
+    "GMT-6": "Etc/GMT+6", "GMT-7": "Etc/GMT+7", "GMT-8": "Etc/GMT+8", "GMT-9": "Etc/GMT+9",
+    "GMT-10": "Etc/GMT+10",
 }
 
 def normalize_timezone(tz):

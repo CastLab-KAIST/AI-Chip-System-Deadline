@@ -10,7 +10,7 @@ Contributions are very welcome! We are only looking to list top-tier conferences
 
 To add or update a deadline:
 - Fork the repository
-- Update `_data/conferences.yml`
+- Update `_data/conferences_raw.yml`
 - Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
     + See available timezone strings [here](https://momentjs.com/timezone/).
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
@@ -35,6 +35,11 @@ To add or update a deadline:
       sub: SP
       note: Important
     ```
+- ***Important: Run the following commands:***
+```cmd
+cd utils
+python3 process_conf_raw.py
+```
 - Send a pull request
 
 ## License
