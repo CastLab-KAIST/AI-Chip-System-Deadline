@@ -105,19 +105,6 @@
   end: TBD
   sub: CA
 
-- id: asplos26a
-  title: ASPLOS Spring
-  year: 2026
-  full_name: Architectural Support for Programming Languages and Operating Systems
-  link: https://www.asplos-conference.org/asplos2026/cfp/
-  abstract_deadline: '2025-03-05 23:59:59'
-  deadline: '2025-03-12 23:59:59'
-  timezone: America/New_York
-  place: TBD
-  date: TBD
-  start: TBD
-  end: TBD
-  sub: CA
 
 - id: neurips24
   title: NeurIPS
@@ -189,5 +176,17 @@
   note: Mandatory paper registration deadline on November 12, 2024. More info <a href='https://www.dac.com/Conference/2025-Call-for-Contributions'>here</a>.
 
 
-
+- id: asplos26a
+  title: ASPLOS Spring
+  year: 2026
+  full_name: Architectural Support for Programming Languages and Operating Systems
+  link: https://www.asplos-conference.org/asplos2026/cfp/
+  abstract_deadline: '2025-03-05 23:59:59'
+  deadline: '2025-03-12 23:59:59'
+  timezone: America/New_York
+  place: TBD
+  date: TBD
+  start: TBD
+  end: TBD
+  sub: CA
 
