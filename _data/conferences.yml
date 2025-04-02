@@ -27,7 +27,7 @@
   sub: AI
 
 - id: asplos26a
-  title: ASPLOS
+  title: ASPLOS Spring
   year: 2026
   full_name: Architectural Support for Programming Languages and Operating Systems
   link: https://www.asplos-conference.org/asplos2026/cfp/
@@ -41,7 +41,7 @@
   sub: CA
 
 - id: asplos26b
-  title: ASPLOS
+  title: ASPLOS Summer
   year: 2026
   full_name: Architectural Support for Programming Languages and Operating Systems
   link: https://www.asplos-conference.org/asplos2026/cfp/
@@ -61,7 +61,7 @@
   link: https://a-sscc2025.org/
   abstract_deadline:
   deadline: 2025-06-04 20:00:00
-  timezone: Asia/Seoul
+  timezone: GMT+9
   place: Daejeon, Korea
   date: Nov 02-05, 2025
   start: 2025-11-02
@@ -75,7 +75,7 @@
   link: https://www.esserc2025.org/
   abstract_deadline:
   deadline: 2025-04-04 23:59:59
-  timezone: Etc/GMT+5
+  timezone: UTC-5
   place: Munich, Germany
   date: Sep 08-11, 2025
   start: 2025-09-08
@@ -89,7 +89,7 @@
   link: https://microarch.org/micro58/
   abstract_deadline: 2024-04-04 23:59:59
   deadline: 2025-04-11 23:59:59
-  timezone: America/New_York
+  timezone: EDT
   place: Seoul, Korea
   date: Oct 18-22, 2025
   start: 2025-10-18
