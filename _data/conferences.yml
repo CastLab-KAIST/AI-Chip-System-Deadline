@@ -1,4 +1,4 @@
----
+
 - id: esserc25
   title: ESSERC
   year: 2025
@@ -12,6 +12,8 @@
   start: 2025-09-08
   end: 2025-09-11
   sub: CR
+
+
 - id: micro25
   title: MICRO
   year: 2025
@@ -26,6 +28,8 @@
   end: 2025-10-22
   sub: CA
   note: Mandatory paper registration deadline on April 4, 2025. More info <a href='https://microarch.org/micro58/'>here</a>.
+
+
 - id: iccad25
   title: ICCAD
   year: 2025
@@ -40,6 +44,8 @@
   end: 2025-10-30
   sub: AU
   note: Mandatory paper registration deadline on April 14, 2025. More info <a href='https://2025.iccad.com/'>here</a>.
+
+
 - id: nips25
   title: NeurIPS
   year: 2025
@@ -53,6 +59,8 @@
   start: 2025-12-02
   end: 2025-12-07
   sub: AI
+
+
 - id: asscc25
   title: A-SSCC
   year: 2025
@@ -66,6 +74,8 @@
   start: 2025-11-02
   end: 2025-11-05
   sub: CR
+
+
 - id: fpt25
   title: FPT
   year: 2025
@@ -79,6 +89,8 @@
   start: 2025-12-02
   end: 2025-12-05
   sub: FPGA
+
+
 - id: asplos26b
   title: ASPLOS Summer
   year: 2026
@@ -92,6 +104,8 @@
   start: TBD
   end: TBD
   sub: CA
+
+
 - id: neurips24
   title: NeurIPS
   year: 2024
@@ -109,6 +123,8 @@
   sub: AI
   hindex: 309
   note: Mandatory abstract deadline on May 15, 2024
+
+
 - id: aaai25
   title: AAAI
   year: 2025
@@ -125,6 +141,8 @@
   sub: AI
   note: Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline
     on Aug 19, 2024. More info <a href='https://aaai.org/conference/aaai/aaai-25/'>here</a>.
+
+
 - id: cvpr25
   title: CVPR
   year: 2025
@@ -140,6 +158,8 @@
   hindex: 389
   sub: AI
   note: Mandatory paper registration deadline on November 07, 2023. More info <a href='https://cvpr.thecvf.com/Conferences/2025'>here</a>.
+
+
 - id: dac25
   title: DAC
   year: 2025
@@ -154,6 +174,8 @@
   end: 2025-06-25
   sub: AU
   note: Mandatory paper registration deadline on November 12, 2024. More info <a href='https://www.dac.com/Conference/2025-Call-for-Contributions'>here</a>.
+
+
 - id: asplos26a
   title: ASPLOS Spring
   year: 2026
@@ -167,3 +189,4 @@
   start: TBD
   end: TBD
   sub: CA
+

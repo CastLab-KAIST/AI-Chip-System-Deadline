@@ -6,16 +6,14 @@
 
 import yaml
 import datetime
-import sys
 from collections import OrderedDict
 import pytz
-from yaml.representer import SafeRepresenter
 from yaml.resolver import BaseResolver
 
 # Constants
 dateformat = '%Y-%m-%d %H:%M:%S'
 tba_words = ["tba", "tbd"]
-right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
+right_now = datetime.datetime.now(pytz.utc).replace(microsecond=0)
 _mapping_tag = BaseResolver.DEFAULT_MAPPING_TAG
 
 # Extended timezone alias map
@@ -67,19 +65,18 @@ def ordered_load(stream, Loader=yaml.Loader, object_pairs_hook=OrderedDict):
     OrderedLoader.add_constructor(_mapping_tag, construct_mapping)
     return yaml.load(stream, OrderedLoader)
 
-def ordered_dump(data, stream=None, Dumper=yaml.Dumper, **kwds):
-    class OrderedDumper(Dumper):
+def ordered_dump(data):
+    class OrderedDumper(yaml.Dumper):
         pass
     def _dict_representer(dumper, data):
         return dumper.represent_mapping(_mapping_tag, data.items())
     OrderedDumper.add_representer(OrderedDict, _dict_representer)
-    return yaml.dump(data, stream, OrderedDumper, **kwds)
+    return yaml.dump(data, Dumper=OrderedDumper, default_flow_style=False)
 
-# Load data
+# Load and process
 with open("../_data/conferences_raw.yml", 'r') as stream:
     data = ordered_load(stream, Loader=yaml.SafeLoader)
 
-    # Validate timezones
     invalid_tzs = find_invalid_timezones(data)
     if invalid_tzs:
         print("⚠️ Invalid or unrecognized timezones found:")
@@ -89,31 +86,25 @@ with open("../_data/conferences_raw.yml", 'r') as stream:
     else:
         print("✅ All timezones are valid.\n")
 
-    # Split valid vs TBA
-    conf = [x for x in data if x['deadline'].lower() not in tba_words]
-    tba = [x for x in data if x['deadline'].lower() in tba_words]
+    valid_conf = [x for x in data if x['deadline'].lower() not in tba_words]
+    tba_conf = [x for x in data if x['deadline'].lower() in tba_words]
 
-    # Sort by deadline date
-    conf.sort(key=lambda x: pytz.utc.normalize(
-        datetime.datetime.strptime(x['deadline'], dateformat).replace(
-            tzinfo=pytz.timezone(normalize_timezone(x['timezone']))
-        )
-    ))
+    def deadline_key(x):
+        dt = datetime.datetime.strptime(x['deadline'], dateformat)
+        tz = pytz.timezone(normalize_timezone(x['timezone']))
+        return pytz.utc.normalize(dt.replace(tzinfo=tz))
 
-    # Sort with passed deadlines last
-    conf.sort(key=lambda x: pytz.utc.normalize(
-        datetime.datetime.strptime(x['deadline'], dateformat).replace(
-            tzinfo=pytz.timezone(normalize_timezone(x['timezone']))
-        )
-    ).strftime(dateformat) < right_now)
+    # Separate into upcoming and past
+    upcoming = [x for x in valid_conf if deadline_key(x) >= right_now]
+    past = [x for x in valid_conf if deadline_key(x) < right_now]
 
-    # Output
+    upcoming.sort(key=deadline_key)
+    past.sort(key=deadline_key)
+
+    sorted_all = upcoming + past + tba_conf
+
     with open('../_data/conferences.yml', 'w') as outfile:
-        for line in ordered_dump(
-            conf + tba,
-            Dumper=yaml.SafeDumper,
-            default_flow_style=False,
-            explicit_start=True
-        ).splitlines():
-            outfile.write(line.replace('- title:', '\n- title:'))
-            outfile.write('\n')
+        for item in sorted_all:
+            yaml_text = ordered_dump([item])
+            yaml_text = yaml_text.strip().replace("- id:", "\n- id:")
+            outfile.write(yaml_text + "\n\n")  # Extra newline between items
