@@ -1,13 +1,13 @@
 title: AI Chip and System Deadlines
 description: Countdowns to top Architecture/Circuit/Automation/FPGA/AI conference deadlines
-author: Yi Chen
+author: Castlab
 
-domain: "cast-deadlines"
-baseurl: "/cast-deadlines"
+domain: "AI-Chip-System-Deadline"
+baseurl: ""
 
-twitter_hashtag: cast-deadlines
-github_username: Chen1Yi1
-github_repo: cast-deadlines
+twitter_hashtag: AI-Chip-System-Deadline
+github_username: CastLab-KAIST
+github_repo: AI-Chip-System-Deadline
 
 markdown: kramdown
 ga_id:
