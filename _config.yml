@@ -3,7 +3,7 @@ description: Countdowns to top Architecture/Circuit/Automation/FPGA/AI conferenc
 author: Castlab
 
 domain: "AI-Chip-System-Deadline"
-baseurl: ""
+baseurl: "/AI-Chip-System-Deadline"
 
 twitter_hashtag: AI-Chip-System-Deadline
 github_username: CastLab-KAIST
