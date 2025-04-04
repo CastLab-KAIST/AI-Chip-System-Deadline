@@ -1,3 +1,17 @@
+- id: hpca26
+  title: HPCA
+  year: 2026
+  full_name: International Symposium on High-Performance Computer Architecture
+  link: https://hpca-conf.org/2026/
+  abstract_deadline: null
+  deadline: TBD
+  timezone: TBD
+  place: TBD
+  date: TBD
+  start: TBD
+  end: TBD
+  sub: CA
+  note: Mandatory paper registration deadline on TBD. More info <a href='https://hpca-conf.org/2026/'>here</a>.
 
 - id: esserc25
   title: ESSERC

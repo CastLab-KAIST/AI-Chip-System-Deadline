@@ -8,7 +8,7 @@ This is a fork of the [ai-deadlines](https://github.com/paperswithcode/ai-deadli
 ### For Castlab members
 - Clone or pull the repository.
 - Update `_data/conferences_raw.yml`
-- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
+- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
 - Optionally add `hindex` (refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
 - Example:
@@ -37,14 +37,14 @@ cd utils
 python3 process_conf_raw.py
 ```
 - Push your changes 
-### For contributors in the community!
+### For contributors in the community
 
 Contributions are very welcome! We are only looking to list top-tier conferences in AI Chip and System  as per [conferenceranks.com][2] and our judgement calls. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
 
 To add or update a deadline:
 - Fork the repository
 - Update `_data/conferences_raw.yml`
-- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
+- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
     + See available timezone strings [here](https://momentjs.com/timezone/).
 - Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
 - Optionally add `hindex` (refers to h5-index from [here](https://scholar.google.com/citations?view_op=top_venues&vq=eng))
