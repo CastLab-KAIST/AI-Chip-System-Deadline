@@ -1,4 +1,4 @@
-## Cast Deadlines
+## AI Chip and System Deadlines
 
 Countdown timers to keep track of a bunch of Computer Architecture/Circuit/Automation/FPGA/AI conference deadlines.
 
@@ -6,7 +6,7 @@ This is a fork of the [ai-deadlines](https://github.com/paperswithcode/ai-deadli
 
 ## Contributing
 
-Contributions are very welcome! We are only looking to list top-tier conferences in AI chip as per [conferenceranks.com][3] and our judgement calls. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
+Contributions are very welcome! We are only looking to list top-tier conferences in AI Chip and System  as per [conferenceranks.com][3] and our judgement calls. Please feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
 
 To add or update a deadline:
 - Fork the repository
@@ -35,7 +35,7 @@ To add or update a deadline:
       sub: SP
       note: Important
     ```
-- ***Important: Run the following commands:***
+- ***Important: Run the following commands to format conference data:***
 ```cmd
 cd utils
 python3 process_conf_raw.py
