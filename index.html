@@ -237,6 +237,7 @@
             }).appendTo($("#past_confs"));
           }
         });
+        $("#sort-order-checkbox input").prop("checked", true);
         $("#sort-order-checkbox input").trigger("click");
 
         {% include handle_url_retrieval.js %}
