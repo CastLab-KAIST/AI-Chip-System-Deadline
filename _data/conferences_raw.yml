@@ -1,3 +1,17 @@
+- id: hpca26
+  title: HPCA
+  year: 2026
+  full_name: IEEE International Symposium on High-Performance Computer Architecture
+  link: https://hpca-conf.org/2026/
+  abstract_deadline: '2025-07-25 23:59:59'
+  deadline: '2025-08-01 23:59:59'
+  timezone: UTC+0
+  place: Sydney, NSW, Australia
+  date: February 25-March 01, 2026
+  start: 2026-02-25
+  end: 2026-03-01
+  sub: CA
+
 - id: aaai26
   title: AAAI
   year: 2026
