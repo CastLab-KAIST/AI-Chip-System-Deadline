@@ -40,6 +40,7 @@ timezone_alias_map = {
 
     # AoE (Anywhere on Earth), uses the latest time zone possible (UTC-12)
     "AoE": "Etc/GMT+12",
+    "AOE": "Etc/GMT+12",
 
     # GMT shorthand (reversed sign for IANA)
     "GMT": "Etc/GMT", "GMT+0": "Etc/GMT", "GMT+1": "Etc/GMT-1", "GMT+2": "Etc/GMT-2", "GMT+3": "Etc/GMT-3",

@@ -1,19 +1,4 @@
 
-- id: asscc25
-  title: A-SSCC
-  year: 2025
-  full_name: Asian Solid-State Circuits Conference
-  link: https://a-sscc2025.org/
-  abstract_deadline: null
-  deadline: '2025-06-04 20:00:00'
-  timezone: Etc/GMT+9
-  place: Daejeon, Korea
-  date: Nov 02-05, 2025
-  start: 2025-11-02
-  end: 2025-11-05
-  sub: CR
-
-
 - id: fpt25
   title: FPT
   year: 2025
@@ -72,6 +57,21 @@
   start: TBD
   end: TBD
   sub: CA
+
+
+- id: iclr26
+  title: ICLR
+  year: 2026
+  full_name: International Conference on Learning Representations
+  link: https://iclr.cc/Conferences/2026
+  abstract_deadline: '2025-09-19 23:59:59'
+  deadline: '2025-09-24 23:59:59'
+  timezone: Etc/GMT+12
+  place: Brazil
+  date: TBD
+  start: TBD
+  end: TBD
+  sub: AI
 
 
 - id: neurips24
@@ -219,4 +219,19 @@
   start: 2025-12-02
   end: 2025-12-07
   sub: AI
+
+
+- id: asscc25
+  title: A-SSCC
+  year: 2025
+  full_name: Asian Solid-State Circuits Conference
+  link: https://a-sscc2025.org/
+  abstract_deadline: null
+  deadline: '2025-06-04 20:00:00'
+  timezone: Etc/GMT+9
+  place: Daejeon, Korea
+  date: Nov 02-05, 2025
+  start: 2025-11-02
+  end: 2025-11-05
+  sub: CR
 

@@ -1,3 +1,17 @@
+- id: iclr26
+  title: ICLR
+  year: 2026
+  full_name: International Conference on Learning Representations
+  link: https://iclr.cc/Conferences/2026
+  abstract_deadline: '2025-09-19 23:59:59'
+  deadline: '2025-09-24 23:59:59'
+  timezone: AoE
+  place: Brazil
+  date: TBD
+  start: TBD
+  end: TBD
+  sub: AI
+
 - id: hpca26
   title: HPCA
   year: 2026
