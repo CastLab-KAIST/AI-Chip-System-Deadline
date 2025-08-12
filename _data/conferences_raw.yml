@@ -1,3 +1,31 @@
+- id: fccm26
+  title: FCCM
+  year: 2026
+  full_name: IEEE International Conference on Field-Programmable Custom Computing Machines
+  link: https://fccm.org/
+  abstract_deadline: '2026-01-10 23:59:59'
+  deadline: '2026-01-17 23:59:59'
+  timezone: AoE
+  place: Atlanta, GA, USA
+  date: May 13-16, 2026
+  start: 2026-05-13
+  end: 2026-05-16
+  sub: FPGA
+
+- id: fpga26
+  title: FPGA
+  year: 2026
+  full_name: IEEE International Conference on Field-Programmable Technology
+  link: https://www.isfpga.org/
+  abstract_deadline: '2025-09-24 23:59:59'
+  deadline: '2025-10-01 23:59:59'
+  timezone: AoE
+  place: Los Angeles, CA, USA
+  date: February 22-24, 2026
+  start: 2026-02-22
+  end: 2026-02-24
+  sub: FPGA
+
 - id: isscc26
   title: ISSCC
   year: 2026
