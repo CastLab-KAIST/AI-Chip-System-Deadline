@@ -1,3 +1,16 @@
+- id: isscc26
+  title: ISSCC
+  year: 2026
+  full_name: IEEE International Solid-State Circuits Conference
+  link: https://www.isscc.org/
+  deadline: '2025-09-03 18:59:59'
+  timezone: GMT
+  place: San Francisco, CA, USA
+  date: February 15-19, 2026
+  start: 2026-02-15
+  end: 2026-02-19
+  sub: CR
+
 - id: iclr26
   title: ICLR
   year: 2026
