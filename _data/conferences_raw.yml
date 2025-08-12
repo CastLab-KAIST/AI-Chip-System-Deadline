@@ -6,10 +6,10 @@
   abstract_deadline: '2025-09-19 23:59:59'
   deadline: '2025-09-24 23:59:59'
   timezone: AoE
-  place: Brazil
-  date: TBD
-  start: TBD
-  end: TBD
+  place: Rio de Janeiro, Brazil
+  date: April 23-27, 2026
+  start: 2026-04-23
+  end: 2026-04-27
   sub: AI
 
 - id: hpca26
@@ -76,10 +76,10 @@
   abstract_deadline: '2025-03-05 23:59:59'
   deadline: '2025-03-12 23:59:59'
   timezone: EST
-  place: TBD
-  date: TBD
-  start: TBD
-  end: TBD
+  place: Pittsburgh, USA
+  date: March 22-26, 2026
+  start: 2026-03-22
+  end: 2026-03-26
   sub: CA
 
 - id: asplos26b
@@ -90,10 +90,10 @@
   abstract_deadline: '2025-08-13 23:59:59'
   deadline: '2025-08-20 23:59:59'
   timezone: EDT
-  place: TBD
-  date: TBD
-  start: TBD
-  end: TBD
+  place: Pittsburgh, USA
+  date: March 22-26, 2026
+  start: 2026-03-22
+  end: 2026-03-26
   sub: CA
   
 - id: asscc25

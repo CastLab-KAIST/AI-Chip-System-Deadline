@@ -1,49 +1,4 @@
 
-- id: fpt25
-  title: FPT
-  year: 2025
-  full_name: IEEE International Conference on Field-Programmable Technology
-  link: https://fpt2025.shanghaitech.edu.cn/
-  abstract_deadline: '2025-07-14 23:59:59'
-  deadline: '2025-07-23 23:59:59'
-  timezone: Asia/Shanghai
-  place: Shanghai, China
-  date: December 2-5, 2025
-  start: 2025-12-02
-  end: 2025-12-05
-  sub: FPGA
-
-
-- id: hpca26
-  title: HPCA
-  year: 2026
-  full_name: IEEE International Symposium on High-Performance Computer Architecture
-  link: https://hpca-conf.org/2026/
-  abstract_deadline: '2025-07-25 23:59:59'
-  deadline: '2025-08-01 23:59:59'
-  timezone: Etc/GMT
-  place: Sydney, NSW, Australia
-  date: February 25-March 01, 2026
-  start: 2026-02-25
-  end: 2026-03-01
-  sub: CA
-
-
-- id: aaai26
-  title: AAAI
-  year: 2026
-  full_name: Annual AAAI Conference on Artificial Intelligence
-  link: https://aaai.org/conference/aaai/aaai-26/
-  abstract_deadline: '2025-07-25 23:59:59'
-  deadline: '2025-08-01 23:59:59'
-  timezone: Etc/GMT+12
-  place: Singapore
-  date: January 20-27, 2026
-  start: 2026-01-20
-  end: 2026-01-27
-  sub: AI
-
-
 - id: asplos26b
   title: ASPLOS Summer
   year: 2026
@@ -152,10 +107,10 @@
   abstract_deadline: '2025-03-05 23:59:59'
   deadline: '2025-03-12 23:59:59'
   timezone: America/New_York
-  place: TBD
-  date: TBD
-  start: TBD
-  end: TBD
+  place: Pittsburgh, USA
+  date: March 22-26, 2026
+  start: 2026-03-22
+  end: 2026-03-26
   sub: CA
 
 
@@ -234,4 +189,49 @@
   start: 2025-11-02
   end: 2025-11-05
   sub: CR
+
+
+- id: fpt25
+  title: FPT
+  year: 2025
+  full_name: IEEE International Conference on Field-Programmable Technology
+  link: https://fpt2025.shanghaitech.edu.cn/
+  abstract_deadline: '2025-07-14 23:59:59'
+  deadline: '2025-07-23 23:59:59'
+  timezone: Asia/Shanghai
+  place: Shanghai, China
+  date: December 2-5, 2025
+  start: 2025-12-02
+  end: 2025-12-05
+  sub: FPGA
+
+
+- id: hpca26
+  title: HPCA
+  year: 2026
+  full_name: IEEE International Symposium on High-Performance Computer Architecture
+  link: https://hpca-conf.org/2026/
+  abstract_deadline: '2025-07-25 23:59:59'
+  deadline: '2025-08-01 23:59:59'
+  timezone: Etc/GMT
+  place: Sydney, NSW, Australia
+  date: February 25-March 01, 2026
+  start: 2026-02-25
+  end: 2026-03-01
+  sub: CA
+
+
+- id: aaai26
+  title: AAAI
+  year: 2026
+  full_name: Annual AAAI Conference on Artificial Intelligence
+  link: https://aaai.org/conference/aaai/aaai-26/
+  abstract_deadline: '2025-07-25 23:59:59'
+  deadline: '2025-08-01 23:59:59'
+  timezone: Etc/GMT+12
+  place: Singapore
+  date: January 20-27, 2026
+  start: 2026-01-20
+  end: 2026-01-27
+  sub: AI
 
