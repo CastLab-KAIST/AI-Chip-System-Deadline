@@ -1,33 +1,4 @@
 
-- id: asplos26b
-  title: ASPLOS Summer
-  year: 2026
-  full_name: Architectural Support for Programming Languages and Operating Systems
-  link: https://www.asplos-conference.org/asplos2026/cfp/
-  abstract_deadline: '2025-08-13 23:59:59'
-  deadline: '2025-08-20 23:59:59'
-  timezone: America/New_York
-  place: Pittsburgh, USA
-  date: March 22-26, 2026
-  start: 2026-03-22
-  end: 2026-03-26
-  sub: CA
-
-
-- id: isscc26
-  title: ISSCC
-  year: 2026
-  full_name: IEEE International Solid-State Circuits Conference
-  link: https://www.isscc.org/
-  deadline: '2025-09-03 18:59:59'
-  timezone: Etc/GMT
-  place: San Francisco, CA, USA
-  date: February 15-19, 2026
-  start: 2026-02-15
-  end: 2026-02-19
-  sub: CR
-
-
 - id: iclr26
   title: ICLR
   year: 2026
@@ -56,6 +27,21 @@
   start: 2026-02-22
   end: 2026-02-24
   sub: FPGA
+
+
+- id: cvpr26
+  title: CVPR
+  year: 2026
+  full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  link: https://cvpr.thecvf.com/Conferences/2026
+  abstract_deadline: '2025-11-07 11:59:59'
+  deadline: '2025-11-14 11:59:59'
+  timezone: Etc/GMT
+  place: Denver, CO, USA
+  date: June 2-6, 2026
+  start: 2026-06-02
+  end: 2026-06-06
+  sub: AI
 
 
 - id: fccm26
@@ -279,4 +265,33 @@
   start: 2026-01-20
   end: 2026-01-27
   sub: AI
+
+
+- id: asplos26b
+  title: ASPLOS Summer
+  year: 2026
+  full_name: Architectural Support for Programming Languages and Operating Systems
+  link: https://www.asplos-conference.org/asplos2026/cfp/
+  abstract_deadline: '2025-08-13 23:59:59'
+  deadline: '2025-08-20 23:59:59'
+  timezone: America/New_York
+  place: Pittsburgh, USA
+  date: March 22-26, 2026
+  start: 2026-03-22
+  end: 2026-03-26
+  sub: CA
+
+
+- id: isscc26
+  title: ISSCC
+  year: 2026
+  full_name: IEEE International Solid-State Circuits Conference
+  link: https://www.isscc.org/
+  deadline: '2025-09-03 18:59:59'
+  timezone: Etc/GMT
+  place: San Francisco, CA, USA
+  date: February 15-19, 2026
+  start: 2026-02-15
+  end: 2026-02-19
+  sub: CR
 
