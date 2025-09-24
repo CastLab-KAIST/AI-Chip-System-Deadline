@@ -44,6 +44,21 @@
   sub: AI
 
 
+- id: isca26
+  title: ISCA
+  year: 2026
+  full_name: International Symposium on Computer Architecture
+  link: https://www.iscaconf.org/isca2026/
+  abstract_deadline: '2025-11-10 23:59:59'
+  deadline: '2025-11-17 23:59:59'
+  timezone: Etc/GMT+12
+  place: Raleigh, USA
+  date: June 27-July 01, 2026
+  start: 2026-06-27
+  end: 2026-07-01
+  sub: CA
+
+
 - id: fccm26
   title: FCCM
   year: 2026
