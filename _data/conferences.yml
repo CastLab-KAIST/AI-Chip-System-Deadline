@@ -1,34 +1,4 @@
 
-- id: iclr26
-  title: ICLR
-  year: 2026
-  full_name: International Conference on Learning Representations
-  link: https://iclr.cc/Conferences/2026
-  abstract_deadline: '2025-09-19 23:59:59'
-  deadline: '2025-09-24 23:59:59'
-  timezone: Etc/GMT+12
-  place: Rio de Janeiro, Brazil
-  date: April 23-27, 2026
-  start: 2026-04-23
-  end: 2026-04-27
-  sub: AI
-
-
-- id: fpga26
-  title: FPGA
-  year: 2026
-  full_name: IEEE International Conference on Field-Programmable Technology
-  link: https://www.isfpga.org/
-  abstract_deadline: '2025-09-24 23:59:59'
-  deadline: '2025-10-01 23:59:59'
-  timezone: Etc/GMT+12
-  place: Los Angeles, CA, USA
-  date: February 22-24, 2026
-  start: 2026-02-22
-  end: 2026-02-24
-  sub: FPGA
-
-
 - id: cvpr26
   title: CVPR
   year: 2026
@@ -57,6 +27,21 @@
   start: 2026-06-27
   end: 2026-07-01
   sub: CA
+
+
+- id: dac26
+  title: DAC
+  year: 2026
+  full_name: Design Automation Conference
+  link: https://dac.com/2026
+  abstract_deadline: '2025-11-11 16:59:59'
+  deadline: '2025-11-18 16:59:59'
+  timezone: America/Los_Angeles
+  place: Long Beach, CA, USA
+  date: June 26-29, 2026
+  start: 2026-06-26
+  end: 2026-06-29
+  sub: AU
 
 
 - id: fccm26
@@ -309,4 +294,34 @@
   start: 2026-02-15
   end: 2026-02-19
   sub: CR
+
+
+- id: iclr26
+  title: ICLR
+  year: 2026
+  full_name: International Conference on Learning Representations
+  link: https://iclr.cc/Conferences/2026
+  abstract_deadline: '2025-09-19 23:59:59'
+  deadline: '2025-09-24 23:59:59'
+  timezone: Etc/GMT+12
+  place: Rio de Janeiro, Brazil
+  date: April 23-27, 2026
+  start: 2026-04-23
+  end: 2026-04-27
+  sub: AI
+
+
+- id: fpga26
+  title: FPGA
+  year: 2026
+  full_name: IEEE International Conference on Field-Programmable Technology
+  link: https://www.isfpga.org/
+  abstract_deadline: '2025-09-24 23:59:59'
+  deadline: '2025-10-01 23:59:59'
+  timezone: Etc/GMT+12
+  place: Los Angeles, CA, USA
+  date: February 22-24, 2026
+  start: 2026-02-22
+  end: 2026-02-24
+  sub: FPGA
 
