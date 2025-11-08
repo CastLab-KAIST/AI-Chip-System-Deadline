@@ -38,7 +38,7 @@
   deadline: '2025-11-18 16:59:59'
   timezone: America/Los_Angeles
   place: Long Beach, CA, USA
-  date: June 26-29, 2026
+  date: July 26-29, 2026
   start: 2026-06-26
   end: 2026-06-29
   sub: AU
@@ -58,6 +58,21 @@
   start: 2026-05-13
   end: 2026-05-16
   sub: FPGA
+
+
+- id: icml26
+  title: ICML
+  year: 2026
+  full_name: International Conference on Machine Learning
+  link: https://icml.cc/Conferences/2026
+  abstract_deadline: '2026-01-23 11:59:59'
+  deadline: '2026-01-28 11:59:59'
+  timezone: Etc/GMT+12
+  place: Coex Convention & Exhibition Center, Seoul, Korea
+  date: July 06-12, 2026
+  start: 2026-07-06
+  end: 2026-07-12
+  sub: AI
 
 
 - id: neurips24
