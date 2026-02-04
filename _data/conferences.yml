@@ -73,36 +73,36 @@
   sub: CAD
 
 
-- id: asplos27a
-  title: ASPLOS Spring
-  year: 2027
-  full_name: ACM Conference on Architectural Support for Programming Languages and
-    Operating Systems
-  link: https://www.asplos-conference.org/asplos2027/
-  abstract_deadline: '2026-04-15 23:59:59'
-  deadline: '2026-04-15 23:59:59'
-  timezone: Etc/GMT+12
-  place: TBD
-  date: TBD
-  start: TBD
-  end: TBD
-  sub: CA
+# - id: asplos27a
+#   title: ASPLOS Spring
+#   year: 2027
+#   full_name: ACM Conference on Architectural Support for Programming Languages and
+#     Operating Systems
+#   link: https://www.asplos-conference.org/asplos2027/
+#   abstract_deadline: '2026-04-15 23:59:59'
+#   deadline: '2026-04-15 23:59:59'
+#   timezone: Etc/GMT+12
+#   place: TBD
+#   date: TBD
+#   start: TBD
+#   end: TBD
+#   sub: CA
 
 
-- id: asplos27b
-  title: ASPLOS Fall
-  year: 2027
-  full_name: ACM Conference on Architectural Support for Programming Languages and
-    Operating Systems
-  link: https://www.asplos-conference.org/asplos2027/
-  abstract_deadline: '2026-09-09 23:59:59'
-  deadline: '2026-09-09 23:59:59'
-  timezone: Etc/GMT+12
-  place: TBD
-  date: TBD
-  start: TBD
-  end: TBD
-  sub: CA
+# - id: asplos27b
+#   title: ASPLOS Fall
+#   year: 2027
+#   full_name: ACM Conference on Architectural Support for Programming Languages and
+#     Operating Systems
+#   link: https://www.asplos-conference.org/asplos2027/
+#   abstract_deadline: '2026-09-09 23:59:59'
+#   deadline: '2026-09-09 23:59:59'
+#   timezone: Etc/GMT+12
+#   place: TBD
+#   date: TBD
+#   start: TBD
+#   end: TBD
+#   sub: CA
 
 
 - id: neurips24
