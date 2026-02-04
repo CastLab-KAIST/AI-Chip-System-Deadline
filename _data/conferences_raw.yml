@@ -1,3 +1,115 @@
+- id: vlsi26
+  title: VLSI
+  year: 2026
+  full_name: SYMPOSIUM ON VLSI TECHNOLOGY AND CIRCUITS
+  link: https://www.vlsisymposium.org/
+  abstract_deadline: null
+  deadline: '2026-01-26 23:59:59'
+  timezone: PST
+  place: HILTON HAWAIIAN VILLAGE, HONOLULU, HAWAII
+  date: June 14-18, 2026
+  start: 2026-06-14
+  end: 2026-06-18
+  sub: CR
+
+- id: eccv26
+  title: ECCV
+  year: 2026
+  full_name: European Conference on Computer Vision
+  link: https://eccv.ecva.net/
+  abstract_deadline: '2026-02-26 22:59:59'
+  deadline: '2026-03-05 22:59:59'
+  timezone: CET
+  place: Malmo, Sweden
+  date: September 8-13, 2026
+  start: 2026-09-08
+  end: 2026-09-13
+  sub: AI
+
+- id: acmmm26
+  title: ACM MM
+  year: 2026
+  full_name: ACM International Conference on Multimedia
+  link: https://2026.acmmm.org/
+  abstract_deadline: '2026-03-25 23:59:59'
+  deadline: '2026-04-01 07:59:59'
+  timezone: CST
+  place: Rio de Janeiro, Brazil
+  date: November 10-14, 2026
+  start: 2026-11-10
+  end: 2026-11-14
+  sub: AI
+
+- id: sosp26
+  title: SOSP
+  year: 2026
+  full_name: ACM Symposium on Operating Systems Principles
+  link: https://sigops.org/s/conferences/sosp/2026/index.html
+  abstract_deadline: '2026-03-26 23:59:59'
+  deadline: '2026-04-01 23:59:59'
+  timezone: AoE
+  place: Clarion Congress Hotel, Prague, Czechia
+  date: September 29 - October 02, 2026
+  start: 2026-09-29
+  end: 2026-10-02
+  sub: CA
+
+- id: micro26
+  title: MICRO
+  year: 2026
+  full_name: IEEE/ACM International Symposium on Microarchitecture
+  link: https://microarch.org/micro59/
+  abstract_deadline: '2026-03-31 23:59:00'
+  deadline: '2026-04-07 23:59:00'
+  timezone: EDT
+  place: Athens, Greece
+  date: October 31 - November 04, 2026
+  start: 2026-10-31
+  end: 2026-11-04
+  sub: CA
+
+- id: iccad26
+  title: ICCAD
+  year: 2026
+  full_name: IEEE/ACM International Conference on Computer-Aided Design
+  link: https://iccad.com/2026/
+  abstract_deadline: '2026-04-07 23:59:59'
+  deadline: '2026-04-14 23:59:59'
+  timezone: UTC+0
+  place: San Jose, CA, USA
+  date: November 8-12, 2026
+  start: 2026-11-08
+  end: 2026-11-12
+  sub: CAD
+
+- id: asplos27a
+  title: ASPLOS
+  year: 2027
+  full_name: ACM Conference on Architectural Support for Programming Languages and Operating Systems
+  link: https://www.asplos-conference.org/asplos2027/
+  abstract_deadline: '2026-04-15 23:59:59'
+  deadline: '2026-04-15 23:59:59'
+  timezone: AoE
+  place: TBD
+  date: TBD
+  start: TBD
+  end: TBD
+  sub: CA
+
+- id: asplos27b
+  title: ASPLOS
+  year: 2027
+  full_name: ACM Conference on Architectural Support for Programming Languages and Operating Systems
+  link: https://www.asplos-conference.org/asplos2027/
+  abstract_deadline: '2026-09-09 23:59:59'
+  deadline: '2026-09-09 23:59:59'
+  timezone: AoE
+  place: TBD
+  date: TBD
+  start: TBD
+  end: TBD
+  sub: CA
+
 - id: icml26
   title: ICML
   year: 2026
