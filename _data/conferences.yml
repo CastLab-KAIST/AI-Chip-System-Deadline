@@ -1,3 +1,4 @@
+
 - id: eccv26
   title: ECCV
   year: 2026
@@ -70,11 +71,11 @@
   date: November 8-12, 2026
   start: 2026-11-08
   end: 2026-11-12
-  sub: AU
+  sub: CAD
 
 
 - id: asplos27a
-  title: ASPLOS Spring
+  title: ASPLOS
   year: 2027
   full_name: ACM Conference on Architectural Support for Programming Languages and
     Operating Systems
@@ -89,8 +90,23 @@
   sub: CA
 
 
+- id: nips26
+  title: NeurIPS
+  year: 2026
+  full_name: Conference on Neural Information Processing Systems
+  link: https://neurips.cc/Conferences/2026
+  abstract_deadline: '2026-05-05 11:59:59'
+  deadline: '2026-05-07 11:59:59'
+  timezone: UTC
+  place: Sydney, Australia
+  date: December 6-11, 2026
+  start: 2026-12-06
+  end: 2026-12-11
+  sub: AI
+
+
 - id: asplos27b
-  title: ASPLOS Fall
+  title: ASPLOS
   year: 2027
   full_name: ACM Conference on Architectural Support for Programming Languages and
     Operating Systems
