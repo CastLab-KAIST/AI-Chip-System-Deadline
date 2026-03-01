@@ -19,7 +19,7 @@ timezone_alias_map = {
     "UTC-12": "Etc/GMT+12", "UTC-11": "Etc/GMT+11", "UTC-10": "Etc/GMT+10", "UTC-9": "Etc/GMT+9",
     "UTC-8": "Etc/GMT+8", "UTC-7": "Etc/GMT+7", "UTC-6": "Etc/GMT+6", "UTC-5": "Etc/GMT+5",
     "UTC-4": "Etc/GMT+4", "UTC-3": "Etc/GMT+3", "UTC-2": "Etc/GMT+2", "UTC-1": "Etc/GMT+1",
-    "UTC+0": "Etc/GMT", "UTC+1": "Etc/GMT-1", "UTC+2": "Etc/GMT-2", "UTC+3": "Etc/GMT-3",
+    "UTC-0": "Etc/GMT", "UTC+0": "Etc/GMT", "UTC+1": "Etc/GMT-1", "UTC+2": "Etc/GMT-2", "UTC+3": "Etc/GMT-3",
     "UTC+4": "Etc/GMT-4", "UTC+5": "Etc/GMT-5", "UTC+6": "Etc/GMT-6", "UTC+7": "Etc/GMT-7",
     
     # Correct mappings for Asia timezones
