@@ -1,4 +1,3 @@
-
 - id: eccv26
   title: ECCV
   year: 2026
@@ -88,21 +87,6 @@
   start: TBD
   end: TBD
   sub: CA
-
-
-- id: nips26
-  title: NeurIPS
-  year: 2026
-  full_name: Conference on Neural Information Processing Systems
-  link: https://neurips.cc/Conferences/2026
-  abstract_deadline: '2026-05-05 11:59:59'
-  deadline: '2026-05-07 11:59:59'
-  timezone: Etc/GMT
-  place: Sydney, Australia
-  date: December 6-11, 2026
-  start: 2026-12-06
-  end: 2026-12-11
-  sub: AI
 
 
 - id: asplos27b
@@ -476,4 +460,3 @@
   start: 2026-07-06
   end: 2026-07-12
   sub: AI
-
