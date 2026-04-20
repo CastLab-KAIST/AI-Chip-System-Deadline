@@ -442,3 +442,45 @@
   sub: AI
   hindex: 309
   note: Mandatory abstract deadline on May 15, 2024
+
+- id: emnlp26
+  title: EMNLP
+  year: 2026
+  full_name: Conference on Empirical Methods in Natural Language Processing
+  link: https://2026.emnlp.org/
+  abstract_deadline: null
+  deadline: '2026-05-25 23:59:59'
+  timezone: UTC-12
+  place: Budapest, Hungary
+  date: October 24-29, 2026
+  start: 2026-10-24
+  end: 2026-10-29
+  sub: AI
+
+- id: aspdac27
+  title: ASP-DAC
+  year: 2027
+  full_name: Asia and South Pacific Design Automation Conference
+  link: https://www.aspdac.com/aspdac2027/
+  abstract_deadline: '2026-07-11 17:00:00'
+  deadline: '2026-07-18 17:00:00'
+  timezone: AoE
+  place: Hitotsubashi Hall, Tokyo, Japan
+  date: January 25-28, 2027
+  start: 2027-01-25
+  end: 2027-01-28
+  sub: AU
+
+- id: asscc26
+  title: A-SSCC
+  year: 2026
+  full_name: Asian Solid-State Circuits Conference
+  link: https://www.a-sscc2026.org/
+  abstract_deadline: null
+  deadline: '2026-06-03 20:00:00'
+  timezone: UTC+0
+  place: Taichung, Taiwan
+  date: November 1-4, 2026
+  start: 2026-11-01
+  end: 2026-11-04
+  sub: CR
