@@ -1,3 +1,59 @@
+- id: hpca27
+  title: HPCA
+  year: 2027
+  full_name: IEEE International Symposium on High-Performance Computer Architecture
+  link: https://conf.researchr.org/home/hpca-2027
+  abstract_deadline: '2026-07-24 23:59:59'
+  deadline: '2026-07-31 23:59:59'
+  timezone: AoE
+  place: Salt Lake City, Utah, USA
+  date: March 2027 (TBD)
+  start: TBD
+  end: TBD
+  sub: CA
+
+- id: aaai27
+  title: AAAI
+  year: 2027
+  full_name: AAAI Conference on Artificial Intelligence
+  link: https://aaai.org/conference/aaai/aaai-27/
+  abstract_deadline: '2026-07-21 23:59:59'
+  deadline: '2026-07-28 23:59:59'
+  timezone: UTC-12
+  place: Montréal, Canada
+  date: February 16-23, 2027
+  start: 2027-02-16
+  end: 2027-02-23
+  sub: AI
+
+- id: fpt26
+  title: FPT
+  year: 2026
+  full_name: IEEE International Conference on Field-Programmable Technology
+  link: https://fpt2026.uark.edu/
+  abstract_deadline: null
+  deadline: '2026-06-19 23:59:59'
+  timezone: AoE
+  place: Honolulu, Hawaii, USA
+  date: December 7-10, 2026
+  start: 2026-12-07
+  end: 2026-12-10
+  sub: FPGA
+
+- id: isscc27
+  title: ISSCC
+  year: 2027
+  full_name: IEEE International Solid-State Circuits Conference
+  link: https://www.isscc.org/
+  abstract_deadline: null
+  deadline: '2026-09-09 19:00:00'
+  timezone: GMT
+  place: San Francisco Marriott Marquis, San Francisco, CA, USA
+  date: February 14-18, 2027
+  start: 2027-02-14
+  end: 2027-02-18
+  sub: CR
+
 - id: nips26
   title: NeurIPS
   year: 2026
