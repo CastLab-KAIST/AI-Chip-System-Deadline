@@ -1,49 +1,4 @@
 
-- id: aspdac27
-  title: ASP-DAC
-  year: 2027
-  full_name: Asia and South Pacific Design Automation Conference
-  link: https://www.aspdac.com/aspdac2027/
-  abstract_deadline: '2026-07-11 17:00:00'
-  deadline: '2026-07-18 17:00:00'
-  timezone: Etc/GMT+12
-  place: Hitotsubashi Hall, Tokyo, Japan
-  date: January 25-28, 2027
-  start: 2027-01-25
-  end: 2027-01-28
-  sub: AU
-
-
-- id: aaai27
-  title: AAAI
-  year: 2027
-  full_name: AAAI Conference on Artificial Intelligence
-  link: https://aaai.org/conference/aaai/aaai-27/
-  abstract_deadline: '2026-07-21 23:59:59'
-  deadline: '2026-07-28 23:59:59'
-  timezone: Etc/GMT+12
-  place: "Montr\xE9al, Canada"
-  date: February 16-23, 2027
-  start: 2027-02-16
-  end: 2027-02-23
-  sub: AI
-
-
-- id: hpca27
-  title: HPCA
-  year: 2027
-  full_name: IEEE International Symposium on High-Performance Computer Architecture
-  link: https://conf.researchr.org/home/hpca-2027
-  abstract_deadline: '2026-07-24 23:59:59'
-  deadline: '2026-07-31 23:59:59'
-  timezone: Etc/GMT+12
-  place: Salt Lake City, Utah, USA
-  date: March 2027 (TBD)
-  start: TBD
-  end: TBD
-  sub: CA
-
-
 - id: isscc27
   title: ISSCC
   year: 2027
@@ -73,6 +28,36 @@
   start: TBD
   end: TBD
   sub: CA
+
+
+- id: iclr27
+  title: ICLR
+  year: 2027
+  full_name: International Conference on Learning Representations
+  link: https://iclr.cc/Conferences/2027
+  abstract_deadline: '2026-09-18 23:59:59'
+  deadline: '2026-09-25 23:59:59'
+  timezone: Etc/GMT+12
+  place: California, USA
+  date: April 26-30, 2027
+  start: 2027-04-26
+  end: 2027-04-30
+  sub: AI
+
+
+- id: fpga27
+  title: FPGA
+  year: 2027
+  full_name: ACM/SIGDA International Symposium on Field-Programmable Gate Arrays
+  link: https://www.isfpga.org/
+  abstract_deadline: '2026-10-01 23:59:59'
+  deadline: '2026-10-08 23:59:59'
+  timezone: Etc/GMT+12
+  place: California, USA
+  date: March 14-16, 2027
+  start: 2027-03-14
+  end: 2027-03-16
+  sub: FPGA
 
 
 - id: neurips24
@@ -581,4 +566,49 @@
   start: 2026-12-07
   end: 2026-12-10
   sub: FPGA
+
+
+- id: aspdac27
+  title: ASP-DAC
+  year: 2027
+  full_name: Asia and South Pacific Design Automation Conference
+  link: https://www.aspdac.com/aspdac2027/
+  abstract_deadline: '2026-07-11 17:00:00'
+  deadline: '2026-07-18 17:00:00'
+  timezone: Etc/GMT+12
+  place: Hitotsubashi Hall, Tokyo, Japan
+  date: January 25-28, 2027
+  start: 2027-01-25
+  end: 2027-01-28
+  sub: AU
+
+
+- id: aaai27
+  title: AAAI
+  year: 2027
+  full_name: AAAI Conference on Artificial Intelligence
+  link: https://aaai.org/conference/aaai/aaai-27/
+  abstract_deadline: '2026-07-21 23:59:59'
+  deadline: '2026-07-28 23:59:59'
+  timezone: Etc/GMT+12
+  place: "Montr\xE9al, Canada"
+  date: February 16-23, 2027
+  start: 2027-02-16
+  end: 2027-02-23
+  sub: AI
+
+
+- id: hpca27
+  title: HPCA
+  year: 2027
+  full_name: IEEE International Symposium on High-Performance Computer Architecture
+  link: https://conf.researchr.org/home/hpca-2027
+  abstract_deadline: '2026-07-24 23:59:59'
+  deadline: '2026-07-31 23:59:59'
+  timezone: Etc/GMT+12
+  place: Salt Lake City, Utah, USA
+  date: March 2027 (TBD)
+  start: TBD
+  end: TBD
+  sub: CA
 
