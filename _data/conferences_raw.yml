@@ -1,3 +1,45 @@
+- id: cvpr27
+  title: CVPR
+  year: 2027
+  full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  link: https://cvpr.thecvf.com/Conferences/2027
+  abstract_deadline: '2026-11-10 23:59:59'
+  deadline: '2026-11-16 23:59:59'
+  timezone: AoE
+  place: Seattle, WA, USA
+  date: June 20-25, 2027
+  start: 2027-06-20
+  end: 2027-06-25
+  sub: AI
+
+- id: dac27
+  title: DAC
+  year: 2027
+  full_name: Design Automation Conference
+  link: https://dac.com/2027
+  abstract_deadline: '2026-11-11 16:59:59'
+  deadline: '2026-11-18 16:59:59'
+  timezone: PST
+  place: San Jose Convention Center, San Jose, CA, USA
+  date: July 11-14, 2027
+  start: 2027-07-11
+  end: 2027-07-14
+  sub: AU
+
+- id: vlsi27
+  title: VLSI
+  year: 2027
+  full_name: SYMPOSIUM ON VLSI TECHNOLOGY AND CIRCUITS
+  link: https://www.vlsisymposium.org/
+  abstract_deadline: null
+  deadline: '2027-01-25 23:59:59'
+  timezone: JST
+  place: Rihga Royal Hotel Kyoto, Japan
+  date: June 20-24, 2027
+  start: 2027-06-20
+  end: 2027-06-24
+  sub: CR
+
 - id: iclr27
   title: ICLR
   year: 2027
@@ -35,9 +77,9 @@
   deadline: '2026-07-31 23:59:59'
   timezone: AoE
   place: Salt Lake City, Utah, USA
-  date: March 2027 (TBD)
-  start: TBD
-  end: TBD
+  date: March 20-24, 2027
+  start: 2027-03-20
+  end: 2027-03-24
   sub: CA
 
 - id: aaai27
