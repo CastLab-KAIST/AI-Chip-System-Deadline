@@ -1,17 +1,32 @@
 
-- id: fpga27
-  title: FPGA
+- id: mlsys27
+  title: MLSys
   year: 2027
-  full_name: ACM/SIGDA International Symposium on Field-Programmable Gate Arrays
-  link: https://www.isfpga.org/
-  abstract_deadline: '2026-10-01 23:59:59'
-  deadline: '2026-10-08 23:59:59'
+  full_name: Conference on Machine Learning and Systems
+  link: https://mlsys.org/Conferences/2027
+  abstract_deadline: null
+  deadline: '2026-10-30 12:00:00'
+  timezone: America/Los_Angeles
+  place: Bellevue, WA, USA
+  date: June 21-25, 2027
+  start: 2027-06-21
+  end: 2027-06-25
+  sub: CA
+
+
+- id: isca27
+  title: ISCA
+  year: 2027
+  full_name: International Symposium on Computer Architecture
+  link: https://iscaconf.org/isca2027/
+  abstract_deadline: '2026-11-09 23:59:59'
+  deadline: '2026-11-16 23:59:59'
   timezone: Etc/GMT+12
-  place: California, USA
-  date: March 14-16, 2027
-  start: 2027-03-14
-  end: 2027-03-16
-  sub: FPGA
+  place: Atlanta, GA, USA
+  date: June 5-9, 2027
+  start: 2027-06-05
+  end: 2027-06-09
+  sub: CA
 
 
 - id: cvpr27
@@ -42,6 +57,21 @@
   start: 2027-07-11
   end: 2027-07-14
   sub: AU
+
+
+- id: osdi27
+  title: OSDI
+  year: 2027
+  full_name: USENIX Symposium on Operating Systems Design and Implementation
+  link: https://www.usenix.org/conference/osdi27
+  abstract_deadline: '2026-12-01 17:59:59'
+  deadline: '2026-12-08 17:59:59'
+  timezone: America/New_York
+  place: Hyatt Regency Baltimore Inner Harbor, Baltimore, MD, USA
+  date: July 7-9, 2027
+  start: 2027-07-07
+  end: 2027-07-09
+  sub: CA
 
 
 - id: vlsi27
@@ -656,4 +686,19 @@
   start: 2027-04-26
   end: 2027-04-30
   sub: AI
+
+
+- id: fpga27
+  title: FPGA
+  year: 2027
+  full_name: ACM/SIGDA International Symposium on Field-Programmable Gate Arrays
+  link: https://www.isfpga.org/
+  abstract_deadline: '2026-10-01 23:59:59'
+  deadline: '2026-10-08 23:59:59'
+  timezone: Etc/GMT+12
+  place: California, USA
+  date: March 14-16, 2027
+  start: 2027-03-14
+  end: 2027-03-16
+  sub: FPGA
 
