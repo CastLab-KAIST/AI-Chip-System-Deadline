@@ -4,6 +4,10 @@
   sub: CA
   color: "#be0aff"
 
+- name: Systems
+  sub: SYS
+  color: "#0aff99"
+
 - name: Circuit
   sub: CR
   color: "#147df5"

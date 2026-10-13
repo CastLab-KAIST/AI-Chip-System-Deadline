@@ -10,7 +10,7 @@
   date: June 21-25, 2027
   start: 2027-06-21
   end: 2027-06-25
-  sub: CA
+  sub: SYS
 
 - id: isca27
   title: ISCA
@@ -38,7 +38,7 @@
   date: July 7-9, 2027
   start: 2027-07-07
   end: 2027-07-09
-  sub: CA
+  sub: SYS
 
 - id: cvpr27
   title: CVPR
@@ -234,7 +234,7 @@
   date: September 29 - October 02, 2026
   start: 2026-09-29
   end: 2026-10-02
-  sub: CA
+  sub: SYS
 
 - id: micro26
   title: MICRO
