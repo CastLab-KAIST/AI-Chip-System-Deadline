@@ -226,19 +226,17 @@
           return $(b).attr('diff') - $(a).attr('diff');
         }).appendTo($("#coming_confs"));
 
-        $("#sort-order-checkbox input").on("click", function() {
-          if ($("#sort-order-checkbox input").is(":checked")) {
-            $("#past_confs .ConfItem").sort(function (a, b) {
-              return $(a).attr('diff') - $(b).attr('diff');
-            }).appendTo($("#past_confs"));
-          } else {
-            $("#past_confs .ConfItem").sort(function (a, b) {
-              return $(b).attr('diff') - $(a).attr('diff');
-            }).appendTo($("#past_confs"));
-          }
-        });
-        $("#sort-order-checkbox input").prop("checked", true);
-        $("#sort-order-checkbox input").trigger("click");
+        // diff = now - deadline, so the most recently passed deadline has the smallest diff
+        function sortPastConfs() {
+          var recentFirst = $("#sort-order").is(":checked");
+          $("#past_confs .ConfItem").sort(function (a, b) {
+            var da = +$(a).attr('diff'), db = +$(b).attr('diff');
+            return recentFirst ? da - db : db - da;
+          }).appendTo($("#past_confs"));
+        }
+        $("#sort-order").on("change", sortPastConfs);
+        $("#sort-order").prop("checked", true);
+        sortPastConfs();
 
         {% include handle_url_retrieval.js %}
 
