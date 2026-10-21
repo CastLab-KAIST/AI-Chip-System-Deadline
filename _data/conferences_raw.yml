@@ -199,6 +199,7 @@
   year: 2026
   full_name: European Conference on Computer Vision
   link: https://eccv.ecva.net/
+  paperslink: https://www.ecva.net/papers.php
   abstract_deadline: '2026-02-26 22:59:59'
   deadline: '2026-03-05 22:59:59'
   timezone: CET
@@ -297,6 +298,7 @@
   year: 2026
   full_name: International Conference on Machine Learning
   link: https://icml.cc/Conferences/2026
+  paperslink: https://proceedings.mlr.press/v306
   abstract_deadline: '2026-01-23 23:59:59'
   deadline: '2026-01-28 23:59:59'
   timezone: AoE
@@ -325,6 +327,7 @@
   year: 2026
   full_name: International Symposium on Computer Architecture
   link: https://www.iscaconf.org/isca2026/
+  paperslink: https://iscaconf.org/isca2026/program/
   abstract_deadline: '2025-11-10 23:59:59'
   deadline: '2025-11-17 23:59:59'
   timezone: AoE
@@ -339,6 +342,7 @@
   year: 2026
   full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
   link: https://cvpr.thecvf.com/Conferences/2026
+  paperslink: https://openaccess.thecvf.com/CVPR2026?day=all
   abstract_deadline: '2025-11-07 11:59:59'
   deadline: '2025-11-14 11:59:59'
   timezone: UTC+0
@@ -394,6 +398,7 @@
   year: 2026
   full_name: International Conference on Learning Representations
   link: https://iclr.cc/Conferences/2026
+  paperslink: https://openreview.net/group?id=ICLR.cc/2026/Conference
   abstract_deadline: '2025-09-19 23:59:59'
   deadline: '2025-09-24 23:59:59'
   timezone: AoE
@@ -408,6 +413,7 @@
   year: 2026
   full_name: IEEE International Symposium on High-Performance Computer Architecture
   link: https://hpca-conf.org/2026/
+  paperslink: https://hpca-conf.org/2026/program/
   abstract_deadline: '2025-07-25 23:59:59'
   deadline: '2025-08-01 23:59:59'
   timezone: UTC+0
@@ -422,6 +428,7 @@
   year: 2026
   full_name: Annual AAAI Conference on Artificial Intelligence
   link: https://aaai.org/conference/aaai/aaai-26/
+  paperslink: https://ojs.aaai.org/index.php/AAAI/issue/archive
   abstract_deadline: '2025-07-25 23:59:59'
   deadline: '2025-08-01 23:59:59'
   timezone: UTC-12
@@ -450,6 +457,7 @@
   year: 2025
   full_name: Conference on Neural Information Processing Systems
   link: https://neurips.cc/Conferences/2025
+  paperslink: https://proceedings.neurips.cc/
   abstract_deadline: '2025-05-11 23:59:59'
   deadline: '2025-05-15 23:59:59'
   timezone: Etc/GMT+12
@@ -464,6 +472,7 @@
   year: 2026
   full_name: Architectural Support for Programming Languages and Operating Systems
   link: https://www.asplos-conference.org/asplos2026/cfp/
+  paperslink: https://www.asplos-conference.org/asplos2026/program/
   abstract_deadline: '2025-03-05 23:59:59'
   deadline: '2025-03-12 23:59:59'
   timezone: EST
@@ -478,6 +487,7 @@
   year: 2026
   full_name: Architectural Support for Programming Languages and Operating Systems
   link: https://www.asplos-conference.org/asplos2026/cfp/
+  paperslink: https://www.asplos-conference.org/asplos2026/program/
   abstract_deadline: '2025-08-13 23:59:59'
   deadline: '2025-08-20 23:59:59'
   timezone: EDT
@@ -492,6 +502,7 @@
   year: 2025
   full_name: Asian Solid-State Circuits Conference
   link: https://a-sscc2025.org/
+  paperslink: https://a-sscc2025.org/program/
   abstract_deadline: null
   deadline: '2025-06-04 20:00:00'
   timezone: UTC-9
@@ -505,7 +516,7 @@
   title: ESSERC
   year: 2025
   full_name: European Solid-State Circuits Conference
-  link: https://www.esserc2025.org/
+  link: https://esserc.org/
   abstract_deadline: 
   deadline: '2025-04-04 23:59:59'
   timezone: Etc/GMT+5
@@ -520,6 +531,7 @@
   year: 2025
   full_name: International Symposium on Microarchitecture
   link: https://microarch.org/micro58/
+  paperslink: https://microarch.org/micro58/program/
   abstract_deadline: '2024-04-04 23:59:59'
   deadline: '2025-04-11 23:59:59'
   timezone: America/New_York
@@ -535,6 +547,7 @@
   year: 2025
   full_name: International Conference on Computer-Aided Design
   link: https://2025.iccad.com/
+  paperslink: https://2025.iccad.com/full-program
   abstract_deadline: '2024-04-14 23:59:59'
   deadline: '2025-04-21 23:59:59'
   timezone: Etc/GMT+12
@@ -565,6 +578,7 @@
   year: 2025
   full_name: Conference on Computer Vision and Pattern Recognition
   link: https://cvpr.thecvf.com/Conferences/2025
+  paperslink: https://openaccess.thecvf.com/CVPR2025?day=all
   abstract_deadline: '2024-11-08 06:59:59'
   deadline: '2024-11-15 06:59:59'
   timezone: Etc/GMT
@@ -581,6 +595,7 @@
   year: 2025
   full_name: AAAI Conference on Artificial Intelligence
   link: https://aaai.org/conference/aaai/aaai-25/
+  paperslink: https://ojs.aaai.org/index.php/AAAI/issue/archive
   abstract_deadline: '2024-08-07 23:59:59'
   deadline: '2024-08-15 23:59:59'
   timezone: Etc/GMT+12
