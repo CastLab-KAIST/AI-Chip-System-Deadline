@@ -228,6 +228,7 @@
   year: 2026
   full_name: ACM Symposium on Operating Systems Principles
   link: https://sigops.org/s/conferences/sosp/2026/index.html
+  paperslink: https://sigops.org/s/conferences/sosp/2026/accepted.html
   abstract_deadline: '2026-03-26 23:59:59'
   deadline: '2026-04-01 23:59:59'
   timezone: AoE
@@ -313,6 +314,7 @@
   year: 2026
   full_name: Design Automation Conference
   link: https://dac.com/2026
+  paperslink: https://63dac.conference-program.com/
   abstract_deadline: '2025-11-11 16:59:59'
   deadline: '2025-11-18 16:59:59'
   timezone: PST
@@ -371,6 +373,7 @@
   year: 2026
   full_name: IEEE International Conference on Field-Programmable Technology
   link: https://www.isfpga.org/
+  paperslink: https://isfpga.org/past/fpga2026/program/
   abstract_deadline: '2025-09-24 23:59:59'
   deadline: '2025-10-01 23:59:59'
   timezone: AoE
@@ -443,6 +446,7 @@
   year: 2025
   full_name: IEEE International Conference on Field-Programmable Technology
   link: https://fpt2025.shanghaitech.edu.cn/
+  paperslink: https://fpt2025.shanghaitech.edu.cn/program/
   abstract_deadline: '2025-07-14 23:59:59'
   deadline: '2025-07-23 23:59:59'
   timezone: Asia/Shanghai
@@ -563,6 +567,7 @@
   year: 2025
   full_name: Design Automation Conference
   link: https://www.dac.com/
+  paperslink: https://62dac.conference-program.com/
   abstract_deadline: '2024-11-12 17:00:00'
   deadline: '2024-11-20 17:00:00'
   timezone: PST
