@@ -1,3 +1,19 @@
+- id: iscas27
+  title: ISCAS
+  year: 2027
+  full_name: IEEE International Symposium on Circuits and Systems
+  link: https://2027.ieee-iscas.org/
+  abstract_deadline: null
+  deadline: '2026-10-26 23:59:59'
+  timezone: CET
+  place: Bordeaux, France
+  date: June 6-9, 2027
+  start: 2027-06-06
+  end: 2027-06-09
+  sub: CR
+  note: Timezone is not stated in the official call for papers; shown here as conference
+    local time (CET). More info <a href='https://2027.ieee-iscas.org/call-for-papers'>here</a>.
+
 - id: mlsys27
   title: MLSys
   year: 2027
