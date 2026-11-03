@@ -1,36 +1,4 @@
 
-- id: iscas27
-  title: ISCAS
-  year: 2027
-  full_name: IEEE International Symposium on Circuits and Systems
-  link: https://2027.ieee-iscas.org/
-  abstract_deadline: null
-  deadline: '2026-10-26 23:59:59'
-  timezone: Europe/Paris
-  place: Bordeaux, France
-  date: June 6-9, 2027
-  start: 2027-06-06
-  end: 2027-06-09
-  sub: CR
-  note: Timezone is not stated in the official call for papers; shown here as conference
-    local time (CET). More info <a href='https://2027.ieee-iscas.org/call-for-papers'>here</a>.
-
-
-- id: mlsys27
-  title: MLSys
-  year: 2027
-  full_name: Conference on Machine Learning and Systems
-  link: https://mlsys.org/Conferences/2027
-  abstract_deadline: null
-  deadline: '2026-10-30 12:00:00'
-  timezone: America/Los_Angeles
-  place: Bellevue, WA, USA
-  date: June 21-25, 2027
-  start: 2027-06-21
-  end: 2027-06-25
-  sub: SYS
-
-
 - id: isca27
   title: ISCA
   year: 2027
@@ -89,6 +57,22 @@
   start: 2027-07-07
   end: 2027-07-09
   sub: SYS
+
+
+- id: fccm27
+  title: FCCM
+  year: 2027
+  full_name: IEEE International Conference on Field-Programmable Custom Computing
+    Machines
+  link: https://www.fccm.org/
+  abstract_deadline: '2027-01-10 23:59:59'
+  deadline: '2027-01-17 23:59:59'
+  timezone: Etc/GMT+12
+  place: Provo, Utah, USA
+  date: May 9-12, 2027
+  start: 2027-05-09
+  end: 2027-05-12
+  sub: FPGA
 
 
 - id: vlsi27
@@ -738,4 +722,36 @@
   start: 2027-03-14
   end: 2027-03-16
   sub: FPGA
+
+
+- id: iscas27
+  title: ISCAS
+  year: 2027
+  full_name: IEEE International Symposium on Circuits and Systems
+  link: https://2027.ieee-iscas.org/
+  abstract_deadline: null
+  deadline: '2026-10-26 23:59:59'
+  timezone: Europe/Paris
+  place: Bordeaux, France
+  date: June 6-9, 2027
+  start: 2027-06-06
+  end: 2027-06-09
+  sub: CR
+  note: Timezone is not stated in the official call for papers; shown here as conference
+    local time (CET). More info <a href='https://2027.ieee-iscas.org/call-for-papers'>here</a>.
+
+
+- id: mlsys27
+  title: MLSys
+  year: 2027
+  full_name: Conference on Machine Learning and Systems
+  link: https://mlsys.org/Conferences/2027
+  abstract_deadline: null
+  deadline: '2026-10-30 12:00:00'
+  timezone: America/Los_Angeles
+  place: Bellevue, WA, USA
+  date: June 21-25, 2027
+  start: 2027-06-21
+  end: 2027-06-25
+  sub: SYS
 
